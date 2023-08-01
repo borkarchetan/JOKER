@@ -52,7 +52,7 @@ It does not require any additional memory that scales with the input size.
     -   Linear Search is a basic search algorithm implemented in JavaScript. 
     -   It sequentially checks each element in the array until it finds the target element or reaches the end of the array. 
     -   Its time complexity is `O(n)`, which makes it efficient for small arrays or unsorted lists. 
-    -   However, for large arrays, other search algorithms like Binary Search **(applicable for sorted arrays)** or Hashing-based searches **(e.g., using HashMap)** are more efficient as they have lower time complexity.
+    -   However, for large arrays, other search algorithms like Binary Search **`(applicable for sorted arrays)`** or Hashing-based searches **`(e.g., using HashMap)`** are more efficient as they have lower time complexity.
 -   
     -   Linear Search is useful when the data is not sorted, or the array is not too large. 
     -   It is simple to implement and easy to understand, making it a good choice for searching tasks when efficiency is not the primary concern, or the array size is relatively small.
