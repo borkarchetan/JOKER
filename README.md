@@ -56,27 +56,27 @@
 
 #### 7. Divide and Conquer Algorithms:
 
-- [Merge Sort]()
-- [Quick Sort]()
-- [Strassen's Matrix Multiplication]()
-- [Closest Pair of Points]()
-- [Karatsuba Multiplication]()
+- [Merge Sort](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/7.%20Divide%20and%20Conquer%20Algorithms/Merge%20Sort)
+- [Quick Sort](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/7.%20Divide%20and%20Conquer%20Algorithms/Quick%20Sort)
+- [Strassen's Matrix Multiplication](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/7.%20Divide%20and%20Conquer%20Algorithms/Strassen's%20Matrix%20Multiplication)
+- [Closest Pair of Points](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/7.%20Divide%20and%20Conquer%20Algorithms/Closest%20Pair%20of%20Points)
+- [Karatsuba Multiplication](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/7.%20Divide%20and%20Conquer%20Algorithms/Karatsuba%20Multiplication)
 
 #### 8. Backtracking Algorithms:
 
-- [N-Queens Problem]()
-- [Sudoku Solver]()
-- [Hamiltonian Cycle]()
-- [Subset Sum Problem]()
+- [N-Queens Problem](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/8.%20Backtracking%20Algorithms/N-Queens%20Problem)
+- [Sudoku Solver](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/8.%20Backtracking%20Algorithms/Sudoku%20Solver)
+- [Hamiltonian Cycle](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/8.%20Backtracking%20Algorithms/Hamiltonian%20Cycle)
+- [Subset Sum Problem](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/8.%20Backtracking%20Algorithms/Subset%20Sum%20Problem)
 
 #### 9. String Algorithms:
 
-- [Longest Common Substring]()
-- [KMP (Knuth-Morris-Pratt) Algorithm]()
-- [Rabin-Karp Algorithm (for string matching)]()
+- [Longest Common Substring](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/9.%20String%20Algorithms/Longest%20Common%20Substring)
+- [KMP (Knuth-Morris-Pratt) Algorithm](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/9.%20String%20Algorithms/KMP%20(Knuth-Morris-Pratt)%20Algorithm)
+- [Rabin-Karp Algorithm (for string matching)](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/9.%20String%20Algorithms/Rabin-Karp%20Algorithm%20(for%20string%20matching))
 
 #### 10. Number Theory Algorithms:
 
-- [Euclidean Algorithm (for GCD)]()
-- [Sieve of Eratosthenes (for prime numbers)]()
-- [Modular Exponentiation]()
+- [Euclidean Algorithm (for GCD)](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/10.%20Number%20Theory%20Algorithms/Euclidean%20Algorithm%20(for%20GCD))
+- [Sieve of Eratosthenes (for prime numbers)](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/10.%20Number%20Theory%20Algorithms/Sieve%20of%20Eratosthenes%20(for%20prime%20numbers))
+- [Modular Exponentiation](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/10.%20Number%20Theory%20Algorithms/Modular%20Exponentiation)
