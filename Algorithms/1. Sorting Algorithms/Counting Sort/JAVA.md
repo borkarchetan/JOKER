@@ -1,5 +1,3 @@
-
-
 # Counting Sort:
 
 Counting Sort is an integer sorting algorithm that works by determining the number of occurrences of each distinct element in the input array and then using this information to reconstruct the sorted array.
