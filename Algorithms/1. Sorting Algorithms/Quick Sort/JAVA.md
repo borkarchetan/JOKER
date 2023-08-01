@@ -1,5 +1,3 @@
-
-
 # Quick Sort:
 
 -   Quick Sort is a divide-and-conquer sorting algorithm that selects a **"pivot"** element from the array and partitions the other elements into two sub-arrays based on whether they are less than or greater than the pivot. 
