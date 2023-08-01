@@ -4,7 +4,7 @@
 
 
 -   The Bellman-Ford Algorithm is a graph search algorithm used to find the shortest path from a given source vertex to all other vertices in a weighted graph, even in the presence of negative edge weights. 
--   It works by repeatedly relaxing all the edges in the graph for V-1 iterations, where V is the number of vertices. 
+-   It works by repeatedly relaxing all the edges in the graph for `V-1` iterations, where `V` is the number of vertices. 
 -   The algorithm guarantees correctness for graphs without negative cycles and can detect negative cycles in the graph.
 
 **`JavaScript Implementation:`**
