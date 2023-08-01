@@ -1,4 +1,4 @@
-Let's explore the Merge Sort algorithm, its JavaScript implementation, time complexity, space complexity, and a summary.
+*Let's explore the Merge Sort algorithm, its JavaScript implementation, time complexity, space complexity, and a summary.*
 
 # Merge Sort:
 
