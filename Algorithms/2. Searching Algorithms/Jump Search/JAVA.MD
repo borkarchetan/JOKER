@@ -75,7 +75,7 @@ Element 23 found at index 5
     -   Jump Search is a search algorithm implemented in Java. 
     -   It works on a sorted array by jumping ahead by a fixed step `(√n)` to find an interval where the target element might exist and then performs a linear search within that interval to find the exact position of the target element. 
     -   Its time complexity is `O(√n)`, making it more efficient than linear search for large arrays with uniform data distribution. 
-    -   However, it is less efficient than binary search, which has a time complexity of` O(log n)`.
+    -   However, it is less efficient than binary search, which has a time complexity of `O(log n)`.
 
 - 
     -   Jump Search is particularly useful when the input array is too large for linear search but not large enough for binary search. 
