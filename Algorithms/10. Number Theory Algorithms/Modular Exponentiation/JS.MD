@@ -1,10 +1,11 @@
-**Modular Exponentiation:**
+# Modular Exponentiation:
 
-Modular exponentiation is an important algorithm used to compute large power values modulo a given number. It efficiently calculates (base^exponent) % modulus without causing integer overflow for large values.
+-   Modular exponentiation is an important algorithm used to compute large power values modulo a given number. 
+-   It efficiently calculates `(base^exponent) % modulus` without causing integer overflow for large values.
 
-**JavaScript Implementation:**
+**`JavaScript Implementation:`**
 
-Let's implement modular exponentiation in JavaScript using an iterative approach:
+*Let's implement modular exponentiation in JavaScript using an iterative approach:*
 
 ```javascript
 function modularExponentiation(base, exponent, modulus) {
@@ -34,20 +35,25 @@ const result = modularExponentiation(base, exponent, modulus);
 console.log(`${base} raised to the power ${exponent} modulo ${modulus} is: ${result}`);
 ```
 
-**Output:**
+**`Output:`**
 
 ```
 2 raised to the power 10 modulo 1000000007 is: 1024
 ```
 
-**Time Complexity:**
+**`Time Complexity:`**
 
-The time complexity of the modular exponentiation algorithm is O(log(exponent)), where "exponent" is the power to which the base is raised. The algorithm uses a binary exponentiation technique, which reduces the number of multiplications required.
+-   The time complexity of the modular exponentiation algorithm is `O(log(exponent))`, where "exponent" is the power to which the base is raised. 
+-   The algorithm uses a binary exponentiation technique, which reduces the number of multiplications required.
 
-**Space Complexity:**
+**`Space Complexity:`**
 
-The space complexity of the modular exponentiation algorithm is O(1) as it uses a constant amount of extra space to store intermediate results.
+-   The space complexity of the modular exponentiation algorithm is `O(1)` as it uses a constant amount of extra space to store intermediate results.
 
-**Summary:**
+**`Summary:`**
 
-Modular exponentiation is implemented in JavaScript using an iterative approach. The output shows the result of (base^exponent) % modulus. The algorithm efficiently calculates large power values modulo a given number. The time complexity is O(log(exponent)), and the space complexity is constant. This algorithm is often used in cryptographic applications and number theory problems.
+-   Modular exponentiation is implemented in JavaScript using an iterative approach. 
+-   The output shows the result of *(base^exponent) % modulus*. 
+-   The algorithm efficiently calculates large power values modulo a given number. 
+-   The time complexity is `O(log(exponent))`, and the space complexity is constant. 
+-   This algorithm is often used in cryptographic applications and number theory problems.
