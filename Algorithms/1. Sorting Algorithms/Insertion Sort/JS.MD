@@ -1,4 +1,4 @@
-Let's explore the Insertion Sort algorithm, its JavaScript implementation, time complexity, space complexity, and a summary.
+*Let's explore the Insertion Sort algorithm, its JavaScript implementation, time complexity, space complexity, and a summary.*
 
 # Insertion Sort:
 
