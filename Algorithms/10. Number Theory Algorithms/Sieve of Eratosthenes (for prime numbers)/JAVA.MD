@@ -44,7 +44,7 @@ public class SieveOfEratosthenes {
 **`Output:`**
 
 ```
-**Prime numbers up to 30:** 2 3 5 7 11 13 17 19 23 29
+Prime numbers up to 30: 2 3 5 7 11 13 17 19 23 29
 ```
 
 **`Time Complexity:`**
