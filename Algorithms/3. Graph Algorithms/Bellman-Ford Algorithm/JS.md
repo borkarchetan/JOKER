@@ -1,9 +1,15 @@
-Sure! Let's explore the Bellman-Ford Algorithm, its JavaScript implementation, output, time complexity, space complexity, and a summary.
+*Let's explore the Bellman-Ford Algorithm, its JavaScript implementation, output, time complexity, space complexity, and a summary.*
 
-Bellman-Ford Algorithm (Shortest Path):
-The Bellman-Ford Algorithm is a graph search algorithm used to find the shortest path from a given source vertex to all other vertices in a weighted graph, even in the presence of negative edge weights. It works by repeatedly relaxing all the edges in the graph for V-1 iterations, where V is the number of vertices. The algorithm guarantees correctness for graphs without negative cycles and can detect negative cycles in the graph.
+# Bellman-Ford Algorithm (Shortest Path)
 
-JavaScript Implementation:
+
+-   The Bellman-Ford Algorithm is a graph search algorithm used to find the shortest path from a given source vertex to all other vertices in a weighted graph, even in the presence of negative edge weights. 
+-   It works by repeatedly relaxing all the edges in the graph for V-1 iterations, where V is the number of vertices. 
+-   The algorithm guarantees correctness for graphs without negative cycles and can detect negative cycles in the graph.
+
+**`JavaScript Implementation:`**
+
+
 
 ```javascript
 class Graph {
@@ -61,7 +67,9 @@ console.log("Bellman-Ford Algorithm (starting from vertex 0):");
 graph.bellmanFord(0);
 ```
 
-Output:
+**`Output:`**
+
+
 ```
 Shortest Distances from Source (0):
 Vertex 0: 0
@@ -72,11 +80,29 @@ Vertex 4: -1
 Vertex 5: 6
 ```
 
-Time Complexity:
-The time complexity of the Bellman-Ford Algorithm is O(V * E), where V is the number of vertices and E is the number of edges in the graph. It requires V-1 iterations of relaxing all edges to find the shortest paths.
+**`Time Complexity:`**
 
-Space Complexity:
-The space complexity of the Bellman-Ford Algorithm is O(V + E), where V is the number of vertices and E is the number of edges in the graph. It is due to the space required to store the edges and the distance array.
 
-Summary:
-The Bellman-Ford Algorithm is a graph search algorithm implemented in JavaScript. It finds the shortest path from a given source vertex to all other vertices in a weighted graph, even in the presence of negative edge weights. The algorithm repeatedly relaxes all the edges for V-1 iterations, where V is the number of vertices, to find the shortest paths. It can detect negative cycles in the graph, and if a negative cycle is present, it reports that the graph contains a negative cycle. The time complexity of the algorithm is O(V * E), and the space complexity is O(V + E). The Bellman-Ford Algorithm is a useful tool in graph analysis and is widely used in various applications, including network routing, transportation planning, and detecting negative cycles in graphs. However, it may not be as efficient as Dijkstra's Algorithm for graphs with non-negative edge weights, especially when the graph is dense.
+-   The time complexity of the Bellman-Ford Algorithm is `O(V * E)`, where V is the number of vertices and E is the number of edges in the graph. 
+-   It requires V-1 iterations of relaxing all edges to find the shortest paths.
+
+**`Space Complexity:`**
+
+
+-   The space complexity of the Bellman-Ford Algorithm is` O(V + E)`, where V is the number of vertices and E is the number of edges in the graph. 
+-   It is due to the space required to store the edges and the distance array.
+
+**`Summary:`**
+
+
+
+-   
+    -   The Bellman-Ford Algorithm is a graph search algorithm implemented in JavaScript. 
+    -   It finds the shortest path from a given source vertex to all other vertices in a weighted graph, even in the presence of negative edge weights. 
+    -   The algorithm repeatedly relaxes all the edges for `V-1` iterations, where `V` is the *number of vertices*, to find the shortest paths. 
+    -   It can detect negative cycles in the graph, and if a negative cycle is present, it reports that the graph contains a negative cycle. 
+
+-   
+    -   The time complexity of the algorithm is `O(V * E)`, and the space complexity is `O(V + E)`. 
+    -   The Bellman-Ford Algorithm is a useful tool in graph analysis and is widely used in various applications, including network routing, transportation planning, and detecting negative cycles in graphs. 
+    -   However, it may not be as efficient as **`Dijkstra's Algorithm`** for graphs with non-negative edge weights, especially when the graph is dense.
