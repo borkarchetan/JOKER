@@ -1,5 +1,3 @@
-
-
 # Selection Sort:
 -   Selection Sort is a simple sorting algorithm that repeatedly selects the smallest (or largest, depending on the sorting order) element from the unsorted part of the array and places it at the beginning of the sorted part. The process is repeated until the entire array is sorted.
 
