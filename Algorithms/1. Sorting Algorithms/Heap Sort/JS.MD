@@ -1,5 +1,3 @@
-
-
 # Heap Sort:
 
 - Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements in ascending or descending order. 
