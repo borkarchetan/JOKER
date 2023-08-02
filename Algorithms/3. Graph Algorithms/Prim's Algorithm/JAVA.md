@@ -1,9 +1,13 @@
-Sure! Let's explore Prim's Algorithm, its Java implementation, output, time complexity, space complexity, and a summary.
+*Let's explore Prim's Algorithm, its Java implementation, output, time complexity, space complexity, and a summary.*
 
-Prim's Algorithm (Minimum Spanning Tree):
-Prim's Algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. Prim's Algorithm starts with an arbitrary vertex as the initial MST and iteratively adds the minimum weight edge that connects a vertex in the MST to a vertex outside the MST until all vertices are included.
+# Prim's Algorithm (Minimum Spanning Tree):
 
-Java Implementation:
+-   Prim's Algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. 
+-   The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. 
+-   Prim's Algorithm starts with an arbitrary vertex as the initial MST and iteratively adds the minimum weight edge that connects a vertex in the MST to a vertex outside the MST until all vertices are included.
+
+**`Java Implementation:`**
+
 
 ```java
 import java.util.*;
@@ -98,7 +102,8 @@ public class PrimsAlgorithm {
 }
 ```
 
-Output:
+**`Output:`**
+
 ```
 Minimum Spanning Tree (MST):
 0 - 1 (4)
@@ -108,11 +113,24 @@ Minimum Spanning Tree (MST):
 4 - 5 (3)
 ```
 
-Time Complexity:
-The time complexity of Prim's Algorithm using an adjacency list representation is O(V^2) for dense graphs and O(E + V log V) for sparse graphs, where V is the number of vertices and E is the number of edges. Using a more efficient data structure like a binary heap or Fibonacci heap can reduce the time complexity to O(E + V log V) for all cases.
+**`Time Complexity:`**
 
-Space Complexity:
-The space complexity of Prim's Algorithm is O(V + E), where V is the number of vertices and E is the number of edges. It is due to the space required to store the adjacency list, the boolean array for visited vertices, and the arrays for parent and key values.
+-   The time complexity of Prim's Algorithm using an adjacency list representation is `O(V^2)` for dense graphs and `O(E + V log V)` for sparse graphs, where `V` is the number of vertices and `E` is the number of edges. 
+-   Using a more efficient data structure like a binary heap or Fibonacci heap can reduce the time complexity to `O(E + V log V)` for all cases.
 
-Summary:
-Prim's Algorithm is a greedy algorithm implemented in Java to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. Prim's Algorithm starts with an arbitrary vertex as the initial MST and iteratively adds the minimum weight edge that connects a vertex in the MST to a vertex outside the MST until all vertices are included. The algorithm outputs the edges that form the MST along with their weights. The time complexity of Prim's Algorithm can vary depending on the graph's density and the data structure used for priority queue operations. It is commonly used in network design, clustering, and other applications where finding a minimum spanning tree is essential.
+**`Space Complexity:`**
+
+-   The space complexity of Prim's Algorithm is `O(V + E)`, where V is the number of vertices and E is the number of edges. 
+-   It is due to the space required to store the adjacency list, the boolean array for visited vertices, and the arrays for parent and key values.
+
+**`Summary:`**
+
+-   
+    -   Prim's Algorithm is a greedy algorithm implemented in Java to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. 
+    -   The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. 
+    -   Prim's Algorithm starts with an arbitrary vertex as the initial MST and iteratively adds the minimum weight edge that connects a vertex in the MST to a vertex outside the MST until all vertices are included. 
+    
+-       
+    -   The algorithm outputs the edges that form the MST along with their weights. 
+    -   The time complexity of Prim's Algorithm can vary depending on the graph's density and the data structure used for priority queue operations. 
+    -   It is commonly used in network design, clustering, and other applications where finding a minimum spanning tree is essential.
