@@ -1,9 +1,16 @@
-Sure! Let's explore Dijkstra's Algorithm, its Java implementation, output, time complexity, space complexity, and a summary.
+*Let's explore Dijkstra's Algorithm, its Java implementation, output, time complexity, space complexity, and a summary.*
 
-Dijkstra's Algorithm (Shortest Path):
-Dijkstra's Algorithm is a graph search algorithm used to find the shortest path from a given source vertex to all other vertices in a weighted graph with non-negative edge weights. It maintains a priority queue to select the next vertex with the smallest distance from the source and relaxes the edges to update the shortest distances.
+# Dijkstra's Algorithm (Shortest Path)
 
-Java Implementation:
+
+
+-   Dijkstra's Algorithm is a graph search algorithm used to find the shortest path from a given source vertex to all other vertices in a weighted graph with non-negative edge weights. 
+
+-   It maintains a priority queue to select the next vertex with the smallest distance from the source and relaxes the edges to update the shortest distances.
+
+**`Java Implementation:`**
+
+
 
 ```java
 import java.util.*;
@@ -83,7 +90,9 @@ public class DijkstraAlgorithm {
 }
 ```
 
-Output:
+**`Output:`**
+
+
 ```
 Shortest Distances from Source (0):
 Vertex 0: 0
@@ -94,11 +103,32 @@ Vertex 4: 10
 Vertex 5: 14
 ```
 
-Time Complexity:
-The time complexity of Dijkstra's Algorithm is O((V + E) * log V), where V is the number of vertices and E is the number of edges in the graph. The priority queue operations dominate the overall time complexity.
+**`Time Complexity:`**
 
-Space Complexity:
-The space complexity of Dijkstra's Algorithm is O(V + E), where V is the number of vertices and E is the number of edges in the graph. It is due to the space required to store the adjacency list and the priority queue.
 
-Summary:
-Dijkstra's Algorithm is a graph search algorithm implemented in Java. It finds the shortest path from a given source vertex to all other vertices in a weighted graph with non-negative edge weights. The algorithm maintains a priority queue to select the next vertex with the smallest distance from the source and relaxes the edges to update the shortest distances. Dijkstra's Algorithm is widely used in various applications where finding the shortest path is essential, such as network routing, transportation planning, and GPS navigation. The time complexity of the algorithm is relatively efficient for small graphs with non-negative edge weights, but it may not be suitable for large graphs with negative weights or dense graphs due to its time complexity.
+
+-   The time complexity of Dijkstra's Algorithm is `O((V + E) * log V)`, where `V` is the number of vertices and `E` is the number of edges in the graph. 
+
+-   The priority queue operations dominate the overall time complexity.
+
+**`Space Complexity:`**
+
+
+
+-   The space complexity of Dijkstra's Algorithm is `O(V + E)`, where `V` is the number of vertices and E is the number of edges in the graph. 
+
+-   It is due to the space required to store the adjacency list and the priority queue.
+
+**`Summary:`**
+
+
+
+-   Dijkstra's Algorithm is a graph search algorithm implemented in Java. 
+
+-   It finds the shortest path from a given source vertex to all other vertices in a weighted graph with non-negative edge weights. 
+
+-   The algorithm maintains a priority queue to select the next vertex with the smallest distance from the source and relaxes the edges to update the shortest distances. 
+
+-   Dijkstra's Algorithm is widely used in various applications where finding the shortest path is essential, such as network routing, transportation planning, and GPS navigation. 
+
+-   The time complexity of the algorithm is relatively efficient for small graphs with non-negative edge weights, but it may not be suitable for large graphs with negative weights or dense graphs due to its time complexity.
