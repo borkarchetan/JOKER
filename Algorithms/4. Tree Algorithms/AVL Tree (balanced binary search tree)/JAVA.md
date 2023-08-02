@@ -1,10 +1,12 @@
-Sure! Let's explore AVL Tree, its Java implementation, output, time complexity, space complexity, and a summary.
+*Let's explore AVL Tree, its Java implementation, output, time complexity, space complexity, and a summary.*
 
-**AVL Tree (Balanced Binary Search Tree):**
+# AVL Tree (Balanced Binary Search Tree):
 
-An AVL Tree is a self-balancing binary search tree where the heights of the two child subtrees of any node differ by at most one. This property ensures that the AVL tree remains balanced and guarantees efficient search, insertion, and deletion operations. When a node is inserted or removed from an AVL tree, the tree is rebalanced through rotation operations to maintain its balance factor.
+-   An AVL Tree is a self-balancing binary search tree where the heights of the two child subtrees of any node differ by at most one. 
+-   This property ensures that the AVL tree remains balanced and guarantees efficient search, insertion, and deletion operations. 
+-   When a node is inserted or removed from an AVL tree, the tree is rebalanced through rotation operations to maintain its balance factor.
 
-**Java Implementation:**
+**`Java Implementation:`**
 
 Let's implement the AVL Tree in Java:
 
@@ -149,20 +151,25 @@ public class AVLTree {
 }
 ```
 
-**Output:**
+**`Output:`**
 ```
 In-order Traversal of AVL Tree:
 10 20 25 30 40 50 
 ```
 
-**Time Complexity:**
+**`Time Complexity:`**
 
-The time complexity of basic AVL Tree operations (insertion, deletion, and search) is O(log n) on average, where n is the number of nodes in the AVL tree. This is because the AVL tree is balanced, and the height of the tree remains logarithmic.
+-   The time complexity of basic AVL Tree operations `(insertion, deletion, and search)` is `O(log n)` on average, where n is the number of nodes in the AVL tree. 
+-   This is because the AVL tree is balanced, and the height of the tree remains logarithmic.
 
-**Space Complexity:**
+**`Space Complexity:`**
 
-The space complexity of the AVL Tree operations is O(log n) due to the recursion used in insertion, deletion, and search. In the worst case, the space complexity can be O(n) when the AVL tree becomes skewed.
+-   The space complexity of the AVL Tree operations is `O(log n)` due to the recursion used in insertion, deletion, and search. 
+-   In the worst case, the space complexity can be `O(n)` when the AVL tree becomes skewed.
 
-**Summary:**
+**`Summary:`**
 
-AVL Tree is a self-balancing binary search tree that ensures the tree remains balanced after insertions and deletions. In the Java implementation, we have implemented insertion and rotation operations to maintain the balance factor of the AVL tree. The time complexity for basic operations is O(log n) on average, providing efficient search and insertion. AVL Trees are widely used to achieve fast and balanced binary search tree operations and are preferred in scenarios where efficient search and balance maintenance are crucial.
+-   AVL Tree is a self-balancing binary search tree that ensures the tree remains balanced after insertions and deletions. 
+-   In the Java implementation, we have implemented insertion and rotation operations to maintain the balance factor of the AVL tree. 
+-   The time complexity for basic operations is `O(log n)` on average, providing efficient search and insertion. 
+-   AVL Trees are widely used to achieve fast and balanced binary search tree operations and are preferred in scenarios where efficient search and balance maintenance are crucial.
