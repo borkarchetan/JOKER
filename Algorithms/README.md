@@ -80,8 +80,7 @@
 - [Sieve of Eratosthenes (for prime numbers)](<https://github.com/borkarchetan/JOKER/tree/main/Algorithms/10.%20Number%20Theory%20Algorithms/Sieve%20of%20Eratosthenes%20(for%20prime%20numbers)>)
 - [Modular Exponentiation](https://github.com/borkarchetan/JOKER/tree/main/Algorithms/10.%20Number%20Theory%20Algorithms/Modular%20Exponentiation)
 
-------------
-------------
 
-# Core Java Interview Question and Answer
+
+
 
