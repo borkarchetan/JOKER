@@ -94,9 +94,9 @@ Breadth-First Traversal (starting from vertex 0):
     -   Breadth-First Search `(BFS)` is a graph traversal algorithm implemented in Java. 
     -   It explores all vertices in a graph level by level, starting from a given source vertex. 
     -   BFS uses a queue data structure to keep track of the vertices to be explored. 
-    -   The algorithm visits all the neighbors of a vertex before moving on to their neighbors. 
--   
+    -   The algorithm visits all the neighbors of a vertex before moving on to their neighbors.
 
+-   
     -   The time complexity of BFS is `O(V + E)`, where `V` is the number of vertices and `E` is the number of edges in the graph. 
     -   The space complexity is `O(V)` due to the space required to store the visited array and the queue. 
     -   BFS is commonly used to find the shortest path in unweighted graphs and is a fundamental algorithm for graph traversal and search.
