@@ -1,9 +1,15 @@
-Sure! Let's explore Kruskal's Algorithm, its JavaScript implementation, output, time complexity, space complexity, and a summary.
+*Let's explore Kruskal's Algorithm, its JavaScript implementation, output, time complexity, space complexity, and a summary.*
 
-Kruskal's Algorithm (Minimum Spanning Tree):
-Kruskal's Algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. Kruskal's Algorithm works by sorting all the edges in non-decreasing order of their weights and adding them to the MST one by one, while ensuring that no cycles are formed.
+# Kruskal's Algorithm (Minimum Spanning Tree):
 
-JavaScript Implementation:
+
+-   Kruskal's Algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. 
+-   The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. 
+-   Kruskal's Algorithm works by sorting all the edges in non-decreasing order of their weights and adding them to the MST one by one, while ensuring that no cycles are formed.
+
+**`JavaScript Implementation:`**
+
+
 
 ```javascript
 class DisjointSet {
@@ -84,7 +90,9 @@ console.log("Kruskal's Algorithm (Minimum Spanning Tree):");
 graph.kruskalMST();
 ```
 
-Output:
+**`Output:`**
+
+
 ```
 Minimum Spanning Tree (MST):
 1 - 2 (1)
@@ -93,11 +101,26 @@ Minimum Spanning Tree (MST):
 4 - 5 (3)
 ```
 
-Time Complexity:
-The time complexity of Kruskal's Algorithm is O(E log E), where E is the number of edges in the graph. The dominant factor in the time complexity is the sorting of the edges by their weights.
+**`Time Complexity:`**
 
-Space Complexity:
-The space complexity of Kruskal's Algorithm is O(V + E), where V is the number of vertices and E is the number of edges. It is due to the space required to store the edges, the disjoint-set data structure, and the MST.
 
-Summary:
-Kruskal's Algorithm is a greedy algorithm implemented in JavaScript to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. Kruskal's Algorithm works by sorting all the edges in non-decreasing order of their weights and adding them to the MST one by one, while ensuring that no cycles are formed. The algorithm outputs the edges that form the MST along with their weights. The time complexity of Kruskal's Algorithm is O(E log E), making it efficient for sparse graphs. It is commonly used in various applications, such as network design, clustering, and finding the minimum cost of connecting all points in a given set.
+-   The time complexity of Kruskal's Algorithm is `O(E log E)`, where E is the number of edges in the graph. 
+-   The dominant factor in the time complexity is the sorting of the edges by their weights.
+
+**`Space Complexity:`**
+
+
+-   The space complexity of Kruskal's Algorithm is `O(V + E)`, where V is the number of vertices and E is the number of edges. 
+-   It is due to the space required to store the edges, the disjoint-set data structure, and the MST.
+
+**`Summary:`**
+
+-   
+    -   Kruskal's Algorithm is a greedy algorithm implemented in JavaScript to find the minimum spanning tree (MST) of a connected, undirected graph with weighted edges. 
+    -   The MST is a subgraph that includes all the vertices of the original graph while minimizing the total edge weight. 
+    -   Kruskal's Algorithm works by sorting all the edges in non-decreasing order of their weights and adding them to the MST one by one, while ensuring that no cycles are formed. 
+    
+-       
+    -   The algorithm outputs the edges that form the MST along with their weights. 
+    -   The time complexity of Kruskal's Algorithm is `O(E log E)`, making it efficient for sparse graphs. 
+    -   It is commonly used in various applications, such as network design, clustering, and finding the minimum cost of connecting all points in a given set.
