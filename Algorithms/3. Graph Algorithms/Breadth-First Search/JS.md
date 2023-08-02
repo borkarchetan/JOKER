@@ -1,9 +1,15 @@
-Let's explore the Breadth-First Search (BFS) algorithm, its JavaScript implementation, output, time complexity, space complexity, and a summary.
+*Let's explore the Breadth-First Search (BFS) algorithm, its JavaScript implementation, output, time complexity, space complexity, and a summary.*
 
-Breadth-First Search (BFS):
-Breadth-First Search is a graph traversal algorithm that explores all the vertices in a graph level by level. It starts from a given source vertex and visits all its neighbors first before moving on to their neighbors. BFS uses a queue data structure to keep track of the vertices to be explored.
+# Breadth-First Search (BFS)
 
-JavaScript Implementation:
+
+-   Breadth-First Search is a graph traversal algorithm that explores all the vertices in a graph level by level. 
+-   It starts from a given source vertex and visits all its neighbors first before moving on to their neighbors. 
+-   BFS uses a queue data structure to keep track of the vertices to be explored.
+
+**`JavaScript Implementation:`**
+
+
 
 ```javascript
 class Graph {
@@ -65,7 +71,9 @@ console.log("Breadth-First Traversal (starting from vertex 0):");
 graph.BFS(0);
 ```
 
-Output:
+**`Output:`**
+
+
 ```
 Breadth-First Traversal (starting from vertex 0):
 0
@@ -76,11 +84,28 @@ Breadth-First Traversal (starting from vertex 0):
 5
 ```
 
-Time Complexity:
-The time complexity of Breadth-First Search is O(V + E), where V is the number of vertices and E is the number of edges in the graph. In the worst case, BFS may visit all vertices and edges in the graph.
+**`Time Complexity:`**
 
-Space Complexity:
-The space complexity of Breadth-First Search is O(V), where V is the number of vertices. It is due to the space required to store the visited set and the queue for traversal.
 
-Summary:
-Breadth-First Search (BFS) is a graph traversal algorithm implemented in JavaScript. It explores all vertices in a graph level by level, starting from a given source vertex. BFS uses a queue data structure to keep track of the vertices to be explored. The algorithm visits all the neighbors of a vertex before moving on to their neighbors. The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph. The space complexity is O(V) due to the space required to store the visited set and the queue. BFS is commonly used to find the shortest path in unweighted graphs and is a fundamental algorithm for graph traversal and search.
+-   The time complexity of Breadth-First Search is `O(V + E)`, where `V` is the number of vertices and `E` is the number of edges in the graph. 
+-   In the worst case, BFS may visit all vertices and edges in the graph.
+
+**`Space Complexity:`**
+
+
+-   The space complexity of Breadth-First Search is `O(V)`, where V is the number of vertices. 
+-   It is due to the space required to store the visited set and the queue for traversal.
+
+**`Summary:`**
+
+
+-   
+    -   Breadth-First Search `(BFS)` is a graph traversal algorithm implemented in JavaScript. 
+    -   It explores all vertices in a graph level by level, starting from a given source vertex. 
+    -   BFS uses a queue data structure to keep track of the vertices to be explored. 
+    -   The algorithm visits all the neighbors of a vertex before moving on to their neighbors. 
+
+-   
+    -   The time complexity of BFS is `O(V + E)`, where `V` is the number of vertices and `E` is the number of edges in the graph. 
+    -   The space complexity is `O(V)` due to the space required to store the visited set and the queue. 
+    -   BFS is commonly used to find the shortest path in unweighted graphs and is a fundamental algorithm for graph traversal and search.
