@@ -1,9 +1,13 @@
-Sure! Let's explore the Depth-First Search (DFS) algorithm, its Java implementation, output, time complexity, space complexity, and a summary.
+*Let's explore the Depth-First Search (DFS) algorithm, its Java implementation, output, time complexity, space complexity, and a summary.*
 
-Depth-First Search (DFS):
-Depth-First Search is a graph traversal algorithm that explores all the vertices in a graph by going as deep as possible along each branch before backtracking. It starts from a given source vertex and visits all its neighbors recursively, marking each vertex as visited to avoid revisiting.
+# Depth-First Search (DFS)
 
-Java Implementation:
+
+-   Depth-First Search is a graph traversal algorithm that explores all the vertices in a graph by going as deep as possible along each branch before backtracking. 
+-   It starts from a given source vertex and visits all its neighbors recursively, marking each vertex as visited to avoid revisiting.
+
+**`Java Implementation:`**
+
 
 ```java
 import java.util.*;
@@ -57,17 +61,31 @@ public class DepthFirstSearch {
 }
 ```
 
-Output:
+**`Output:`**
+
 ```
 Depth-First Traversal (starting from vertex 0):
 0 1 3 4 5 2
 ```
 
-Time Complexity:
-The time complexity of Depth-First Search is O(V + E), where V is the number of vertices and E is the number of edges in the graph. In the worst case, DFS may visit all vertices and edges in the graph.
+**`Time Complexity:`**
 
-Space Complexity:
-The space complexity of Depth-First Search is O(V), where V is the number of vertices. It is due to the space required to store the visited array and the recursive call stack during traversal.
+-   The time complexity of Depth-First Search is `O(V + E)`, where V is the number of vertices and E is the number of edges in the graph. 
+-   In the worst case, DFS may visit all vertices and edges in the graph.
 
-Summary:
-Depth-First Search (DFS) is a graph traversal algorithm implemented in Java. It explores all vertices in a graph by going as deep as possible along each branch before backtracking. DFS uses a recursive approach to visit all the neighbors of a vertex and marks each vertex as visited to avoid revisiting. The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph. The space complexity is O(V) due to the space required to store the visited array and the recursive call stack. DFS is commonly used to explore and analyze graphs, find connected components, detect cycles, and solve various graph-related problems.
+**`Space Complexity:`**
+
+-   The space complexity of Depth-First Search is `O(V)`, where V is the number of vertices. 
+-   It is due to the space required to store the visited array and the recursive call stack during traversal.
+
+**`Summary:`**
+
+-   
+    -   Depth-First Search `(DFS)` is a graph traversal algorithm implemented in Java. 
+    -   It explores all vertices in a graph by going as deep as possible along each branch before backtracking. 
+    -   DFS uses a recursive approach to visit all the neighbors of a vertex and marks each vertex as visited to avoid revisiting. 
+    
+-       
+    -   The time complexity of DFS is `O(V + E)`, where V is the number of vertices and E is the number of edges in the graph. 
+    -   The space complexity is `O(V)` due to the space required to store the visited array and the recursive call stack. 
+    -   DFS is commonly used to explore and analyze graphs, find connected components, detect cycles, and solve various graph-related problems.

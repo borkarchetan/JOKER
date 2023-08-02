@@ -1,74 +1,100 @@
-Sure! Let's simplify the Depth-First Search (DFS) algorithm's JavaScript implementation and provide a summary of it.
+# Depth-First Search (DFS):
 
-Depth-First Search (DFS) - JavaScript Implementation:
+
+-   Depth-First Search is a graph traversal algorithm that explores as far as possible along each branch before backtracking. 
+
+-   It is implemented using either recursion or an explicit stack data structure. 
+
+-   DFS is used to visit all the vertices and edges of a graph in a systematic way.
+
+**`JavaScript Implementation:`**
 
 ```javascript
 class Graph {
-    constructor() {
-        this.adjList = new Map();
-    }
+  constructor() {
+    this.adjList = new Map();
+  }
 
-    addVertex(vertex) {
-        if (!this.adjList.has(vertex)) {
-            this.adjList.set(vertex, []);
+  addVertex(vertex) {
+    if (!this.adjList.has(vertex)) {
+      this.adjList.set(vertex, []);
+    }
+  }
+
+  addEdge(source, destination) {
+    this.addVertex(source);
+    this.addVertex(destination);
+    this.adjList.get(source).push(destination);
+    // For an undirected graph, add the reverse edge as well
+    // this.adjList.get(destination).push(source);
+  }
+
+  dfs(startingVertex) {
+    const visited = new Set();
+
+    const dfsRecursive = (vertex) => {
+      visited.add(vertex);
+      console.log(vertex); // Output the visited vertex
+
+      const neighbors = this.adjList.get(vertex);
+      for (const neighbor of neighbors) {
+        if (!visited.has(neighbor)) {
+          dfsRecursive(neighbor);
         }
-    }
+      }
+    };
 
-    addEdge(source, destination) {
-        this.adjList.get(source).push(destination);
-        this.adjList.get(destination).push(source);
-    }
-
-    DFS(startVertex) {
-        const visited = new Set();
-
-        function DFSUtil(vertex) {
-            visited.add(vertex);
-            console.log(vertex);
-
-            const neighbors = this.adjList.get(vertex);
-            for (const neighbor of neighbors) {
-                if (!visited.has(neighbor)) {
-                    DFSUtil(neighbor);
-                }
-            }
-        }
-
-        DFSUtil(startVertex);
-    }
+    dfsRecursive(startingVertex);
+  }
 }
 
-// Example usage:
+// Example usage
 const graph = new Graph();
-graph.addVertex(0);
-graph.addVertex(1);
-graph.addVertex(2);
-graph.addVertex(3);
-graph.addVertex(4);
-graph.addVertex(5);
-graph.addEdge(0, 1);
-graph.addEdge(0, 2);
-graph.addEdge(1, 3);
-graph.addEdge(1, 4);
-graph.addEdge(2, 4);
-graph.addEdge(3, 4);
-graph.addEdge(3, 5);
-graph.addEdge(4, 5);
+graph.addEdge("A", "B");
+graph.addEdge("A", "C");
+graph.addEdge("B", "D");
+graph.addEdge("C", "E");
+graph.addEdge("D", "E");
+graph.addEdge("D", "F");
+graph.addEdge("E", "F");
 
-console.log("Depth-First Traversal (starting from vertex 0):");
-graph.DFS(0);
+console.log("DFS Traversal:");
+graph.dfs("A");
 ```
 
-Output:
+**`Output:`**
+
 ```
-Depth-First Traversal (starting from vertex 0):
-0
-1
-3
-4
-5
-2
+DFS Traversal:
+A
+B
+D
+E
+C
+F
 ```
 
-Summary:
-Depth-First Search (DFS) is a graph traversal algorithm implemented in JavaScript. It explores all vertices in a graph by going as deep as possible along each branch before backtracking. DFS uses recursion to visit all the neighbors of a vertex and marks each vertex as visited to avoid revisiting. The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges in the graph. The space complexity is O(V) due to the space required to store the visited set and the recursive call stack during traversal. DFS is commonly used to explore and analyze graphs, find connected components, detect cycles, and solve various graph-related problems. It is a fundamental algorithm for graph traversal and is widely used in graph-related applications and algorithms.
+**`Time Complexity:`**
+
+
+-   The time complexity of Depth-First Search is `O(V + E)`, where `V` is the number of vertices and `E` is the number of edges in the graph. 
+
+-   It visits each vertex and edge once.
+
+**`Space Complexity:`**
+
+
+-   The space complexity of Depth-First Search is `O(V)`, where V is the number of vertices in the graph. 
+
+-   It uses additional memory to store the visited vertices in the visited set.
+
+**`Summary:`**
+
+
+-   The JavaScript implementation demonstrates Depth-First Search `(DFS)` on a graph. 
+
+-   The algorithm starts from a given starting vertex and visits all the vertices reachable from it. 
+
+-   It explores as far as possible along each branch before backtracking. The output shows the traversal order of vertices during DFS. 
+
+-   The time complexity is `O(V + E)`, and the space complexity is `O(V)`.
