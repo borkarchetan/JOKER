@@ -8,6 +8,15 @@
 - **When we can do the Interpolation?**
 - **What we can not do with Interpolation?**
 
+### Command Line Interface
+
+
+
+### Component
+- **What is component?**
+- **How we can make a component?**
+- **How to use component?**
+
 ------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
