@@ -1,0 +1,25 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#box {
+    /* margin-top: 50px; */
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: #00ffff;
+}
+#box1 {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  background-color: #ab63d4;
+}
