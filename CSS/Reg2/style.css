@@ -1,0 +1,301 @@
+/* Import Google Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Global Styles */
+/* Set default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Header Styles */
+/* Style the header section */
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+}
+
+/* Navigation Styles */
+/* Style the navigation bar */
+.nav {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav, .nav_item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Adjust header height and logo size for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        height: 60px;
+    }
+
+    .nav_logo {
+        font-size: 20px;
+    }
+}
+
+/* Make form container slightly smaller on smaller screens */
+@media (max-width: 768px) {
+    .form_container {
+        max-width: 280px;
+    }
+}
+
+/* Common styling for logo, navigation links, and buttons */
+.nav_logo, .nav_link, .button {
+    color: #ffffff;
+}
+
+/* Style the logo */
+.nav_logo {
+    font-size: 25px;
+}
+
+/* Style navigation items */
+.nav_item {
+    column-gap: 25px;
+}
+
+/* Change link color on hover */
+.nav_link:hover {
+    color: #d9d9d9;
+}
+
+/* Button Styles */
+/* Style buttons with border, padding, and cursor */
+.button {
+    padding: 6px 24px;
+    border: 3px solid #d9d9d9;
+    border-radius: 7px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Add scaling effect when button is active */
+.button:active {
+    transform: scale(0.98);
+}
+
+/* Home Section Styles */
+/* Style the main background image and overlay for the home section */
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./assets/bg.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add semi-transparent overlay with fade-in effect */
+.home::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-out;
+}
+
+/* Show overlay on home section when active */
+.home.show::before {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Form Container Styles */
+/* Style the container for login and sign-up forms */
+.form_container {
+    position: absolute;
+    max-width: 320px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    z-index: 101;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease-out;
+}
+
+/* Show form container on active home section */
+.home.show .form_container {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Sign-up Form Styles */
+/* Hide the sign-up form by default */
+.signup_form {
+    display: none;
+}
+
+/* Show the sign-up form in active form container */
+.form_container.active .signup_form {
+    display: block;
+}
+
+/* Hide the login form in active form container */
+.form_container.active .login_form {
+    display: none;
+}
+
+/* Close Form Icon */
+/* Style the close icon for the form container */
+.form_close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: black;
+    font-size: 22px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Form Titles */
+/* Style the titles of login and sign-up forms */
+.form_container h2 {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+/* Input Box Styles */
+/* Style the input fields and their containers */
+.input_box {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+}
+
+/* Style input fields */
+.input_box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    color: #333;
+    transition: all 0.2s ease;
+    border-bottom: 1.5px solid #aaaaaa;
+}
+
+/* Highlight input field on focus */
+.input_box input:focus {
+    color: #7d2ae8;
+}
+
+/* Input Icons */
+/* Style icons within input boxes */
+.input_box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+/* Style email and password icons */
+.input_box i.email,
+.input_box i.password {
+    left: 0;
+    color: #707070;
+}
+
+/* Highlight input icons on focus */
+.input_box input:focus ~ i.email,
+.input_box input:focus ~ i.password {
+    color: #7d2ae8;
+}
+
+/* Style password hide icon */
+.input_box i.pw_hide {
+    right: 0;
+    font-size: 18px;
+}
+
+/* Option Field Styles */
+/* Style the "Remember me" and "Forgot Password" section */
+.option_field {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Links within Form Container */
+/* Style links within the form container */
+.form_container a {
+    color: #7d2ae8;
+    font-size: 12px;
+}
+
+/* Highlight link on hover */
+.form_container a:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox Styles */
+/* Style checkboxes */
+.checkbox {
+    display: flex;
+    column-gap: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+/* Style checkbox input */
+.checkbox input {
+    accent-color: #7d2ae8;
+}
+
+/* Style checkbox label */
+.checkbox label {
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+}
+
+/* Button Styles within Form Container */
+/* Style buttons within the form container */
+.form_container .button {
+    background: #7d2ae8;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+/* Sign-up/Login Link Styles */
+/* Style the sign-up/login link */
+.login_signup {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}

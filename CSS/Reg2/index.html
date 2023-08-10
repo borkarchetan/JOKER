@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Start of HTML document -->
+
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Importing Unicons library for icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Title of the webpage -->
+    <title>Registration and Sign-Up</title>
+</head>
+<!-- End of head section -->
+
+<body>
+    <!-- Start of body -->
+
+    <!-- Header section -->
+    <header class="header">
+        <!-- Navigation bar -->
+        <nav class="nav">
+            <!-- Logo link -->
+            <a href="#" class="nav_logo">Battleship Computer</a>
+            <!-- List of navigation links -->
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Home</a>
+                    <a href="#" class="nav_link">Product</a>
+                    <a href="#" class="nav_link">Service</a>
+                    <a href="#" class="nav_link">Contact</a>
+                </li>
+            </ul>
+            <!-- Button to open login/signup form -->
+            <button class="button" id="form-open">Login</button>
+        </nav>
+    </header>
+    <!-- End of header section -->
+
+    <!-- Home section -->
+    <section class="home">
+        <!-- Form container for login and signup forms -->
+        <div class="form_container">
+            <!-- Close button for forms -->
+            <i class="uil uil-times form_close"></i>
+
+            <!-- Login form -->
+            <div class="form login_form">
+                <!-- Form for login -->
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <!-- Input box for email -->
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your email" required />
+                        <i class="uil email uil-envelope-alt"></i>
+                    </div>
+
+                    <!-- Input box for password -->
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter Your password" required />
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <!-- Option field for "Remember me" and "Forgot Password" link -->
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot Password?</a>
+                    </div>
+
+                    <!-- Login button -->
+                    <button type="button" class="button">Login Now</button>
+                    <!-- Link to sign-up form -->
+                    <div class="login_signup">
+                        Don't have an account? <a href="#" id="signup">Sign-Up</a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Sign-up form -->
+            <div class="form signup_form">
+                <!-- Form for sign-up -->
+                <form action="#">
+                    <h2>Sign Up</h2>
+
+                    <!-- Input box for email -->
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your email" required />
+                        <i class="uil email uil-envelope-alt"></i>
+                    </div>
+
+                    <!-- Input box for password creation -->
+                    <div class="input_box">
+                        <input type="password" placeholder="Create password" required />
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <!-- Input box for confirming password -->
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm password" required />
+                        <i class="uil uil-lock confirm_password password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <!-- Sign-up button -->
+                    <button type="button" class="button">Sign-Up Now</button>
+                    <!-- Link to login form -->
+                    <div class="login_signup">
+                        Already have an account? <a href="#" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End of home section -->
+</body>
+<!-- End of body -->
+
+<!-- Link to external JavaScript file -->
+<script src="./script.js"></script>
+
+
+</html>
+<!-- End of HTML document -->
