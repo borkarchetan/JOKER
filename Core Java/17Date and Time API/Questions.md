@@ -41,6 +41,7 @@ Certainly, here are the answers to your questions:
 -   The `java.time` package provides a comprehensive and consistent API for handling date and time. It addresses the shortcomings of the older API by offering better data types, improved immutability, clear handling of time zones, more accurate calculations, and enhanced formatting options.
 
 **8. Provide examples of using `LocalDate`, `LocalTime`, and `LocalDateTime`.**
+
 -   
     ```java
         // LocalDate: Represents a date without a time component
