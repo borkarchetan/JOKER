@@ -7,7 +7,7 @@
 - **Answer:** You can create a thread by:
      - Extending the `Thread` class and overriding the `run()` method.
      - Implementing the `Runnable` interface and passing the instance to a `Thread` object. Implementing `Runnable` is preferred as it promotes better separation of concerns.
-   Example using `Runnable`:
+     - Example using `Runnable`:
    ```java
    class MyRunnable implements Runnable {
        public void run() {
