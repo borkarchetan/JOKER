@@ -1,4 +1,3 @@
-Certainly, here are the answers to your questions:
 
 **1. What is the purpose of organizing classes into packages?**
 - **Answer:** Organizing classes into packages in Java serves several purposes:
@@ -49,4 +48,3 @@ Certainly, here are the answers to your questions:
 **9. How does Java resolve class names in different packages?**
 - **Answer:** Java resolves class names based on the fully qualified class name, which includes the package name. When you refer to a class from another package, you can use the `import` statement to bring the class into scope. If not imported, you need to use the fully qualified class name, like `com.example.mypackage.MyClass`.
 
-Feel free to ask if you have more questions or need further clarification!
