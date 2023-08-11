@@ -1,4 +1,3 @@
-Certainly, here are the answers to your questions:
 
 **1. Explain the difference between checked and unchecked exceptions in Java.**
 - **Answer:** Checked exceptions are exceptions that must be either caught using a try-catch block or declared in the method's `throws` clause. They are typically used for scenarios where the program can reasonably recover from the exception. Unchecked exceptions (also known as runtime exceptions) do not require explicit handling and can be caught if desired. They are often caused by programming errors and represent issues that are difficult to recover from at runtime.
@@ -38,4 +37,3 @@ Certainly, here are the answers to your questions:
 **9. What is the purpose of the "throws" clause in method declarations?**
 - **Answer:** The `throws` clause is used to declare the checked exceptions that a method might throw. It informs callers of the method about the potential exceptions they need to handle. When a method declares a checked exception in its `throws` clause, callers must either catch the exception using a try-catch block or propagate the exception by including the same exception type in their own `throws` clause.
 
-Feel free to ask if you have more questions or need further clarification!
