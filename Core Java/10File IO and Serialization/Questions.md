@@ -1,4 +1,3 @@
-Sure, here are the answers to your questions:
 
 **1. How do you read data from a text file in Java?**
 - **Answer:** You can read data from a text file in Java using FileReader and BufferedReader classes. 
@@ -66,4 +65,3 @@ Sure, here are the answers to your questions:
    }
    ```
 
-Feel free to ask if you have more questions or need further clarification!
