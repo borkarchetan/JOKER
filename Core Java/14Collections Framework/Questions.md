@@ -28,7 +28,7 @@ Certainly, here are the answers to your questions formatted as requested:
 
 **7. Explain the difference between lists, sets, and maps.**
   
-   - **Answer:** Lists (`List`): Ordered collection that allows duplicate elements and provides access by index.
+- **Answer:** Lists (`List`): Ordered collection that allows duplicate elements and provides access by index.
     - Sets (`Set`): Unordered collection that does not allow duplicate elements and focuses on unique values.
     - Maps (`Map`): Key-value pairs collection, associating each key with a unique value, providing efficient look-up.
 
