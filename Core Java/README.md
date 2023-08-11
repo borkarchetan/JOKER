@@ -146,7 +146,7 @@
 4. How does the `BufferedReader` class enhance reading efficiency in Java?
 5. What is the role of the `FilterInputStream` class in Java I/O?
 
----
+-----
 
 Certainly! Here's a more comprehensive list of interview questions based on the 18 topics you've mentioned:
 
