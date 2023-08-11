@@ -1,4 +1,3 @@
-Certainly, here are the answers to your questions:
 
 **1. What is the role of the Java Virtual Machine (JVM) in memory management?**
 - **Answer:** The JVM is responsible for managing memory in Java programs. It allocates memory for objects, manages their lifecycle, and performs garbage collection to reclaim memory occupied by objects that are no longer reachable. The JVM uses different memory areas like heap and stack to manage memory efficiently.
@@ -37,4 +36,3 @@ Certainly, here are the answers to your questions:
      - Soft Reference: Similar to weak references, but objects are collected only when the JVM requires memory. Useful for caching scenarios.
      - Phantom Reference: Objects with phantom references are enqueued for removal after becoming unreachable, but they are not immediately collected. They are often used for cleanup operations after an object's removal.
 
-Feel free to ask if you have more questions or need further clarification!
