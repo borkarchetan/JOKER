@@ -16,10 +16,10 @@ Certainly, here are the answers to the questions:
 
 - **Answer:** Access modifiers in Java are keywords that determine the level of access or visibility that class members (fields, methods, classes) have within and outside the class. There are four main access modifiers:
 
-- `public`: Members are accessible from any class.
-- `protected`: Members are accessible within the same package and subclasses.
-- `default` (no modifier): Members are accessible within the same package only.
-- `private`: Members are accessible only within the same class.
+    - `public`: Members are accessible from any class.
+    - `protected`: Members are accessible within the same package and subclasses.
+    - `default` (no modifier): Members are accessible within the same package only.
+    - `private`: Members are accessible only within the same class.
 
 **2. Explain the differences between the "==" operator and the `equals()` method for comparing objects.**
 
