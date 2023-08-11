@@ -28,7 +28,7 @@
 - **Answer:** You might use an abstract class when you want to provide a common base implementation for a group of related classes. Abstract classes can have fields and non-abstract methods, making them suitable for sharing code among subclasses. On the other hand, you might use an interface when you want to define a contract that multiple unrelated classes can adhere to. Interfaces are ideal for achieving multiple inheritance without the issues of traditional multiple inheritance.
 
 **6. What is an abstract class? Why would you use one?**
-- **Answer:** An abstract class in Java is a class that cannot be instantiated and is meant to serve as a base for other classes. It can contain abstract methods (without implementation) that its subclasses must override. You would use an abstract class when you want to provide a common base implementation and define a contract for its subclasses.
+- **Answer:** An abstract class in Java is a class that cannot be instantiated and is meant to serve as a base for other classes. It can contain abstract methods ([without implementation]) that its subclasses must override. You would use an abstract class when you want to provide a common base implementation and define a contract for its subclasses.
 
 **7. Explain the concept of an interface. Can a class implement multiple interfaces?**
 - **Answer:** An interface in Java is a contract that defines a set of abstract methods that implementing classes must provide. It defines a set of behaviors that a class must adhere to. Yes, a class can implement multiple interfaces, allowing it to inherit and provide implementations for methods defined in those interfaces.
