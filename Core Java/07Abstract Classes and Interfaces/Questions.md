@@ -39,4 +39,3 @@
 **9. Describe the "diamond problem" in relation to multiple inheritance and how Java avoids it.**
 - **Answer:** The "diamond problem" is a challenge that arises in languages that support multiple inheritance. It occurs when a class inherits from two classes that share a common superclass, causing ambiguity in method and member access. Java avoids this problem by allowing a class to implement multiple interfaces (which can have method signatures) but only inherit from a single class. This way, ambiguity is eliminated, and the compiler can clearly determine which method is being invoked.
 
-Feel free to ask if you have more questions or need further clarification!
