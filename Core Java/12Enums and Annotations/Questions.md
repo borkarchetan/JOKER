@@ -1,4 +1,3 @@
-Certainly, here are the answers to your questions:
 
 **1. How can you create a custom enum in Java? Provide an example.**
 - **Answer:** You can create a custom enum in Java by defining a new enum type using the `enum` keyword. Here's an example:
@@ -55,4 +54,3 @@ Certainly, here are the answers to your questions:
      - `@Override`: This annotation indicates that a method is intended to override a method from a superclass. It helps detect errors at compile time if the method doesn't actually override any method in the superclass.
      - `@Deprecated`: This annotation marks a class, method, or field as deprecated. It signifies that the element is no longer recommended for use, often due to being replaced by newer functionality. Using deprecated elements might lead to warnings or errors.
 
-Feel free to ask if you have more questions or need further clarification!

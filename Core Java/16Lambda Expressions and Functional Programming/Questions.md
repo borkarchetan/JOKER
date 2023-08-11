@@ -1,4 +1,3 @@
-Absolutely, I'll format the answers to your questions with the "Answer" word in bold for better clarity:
 
 **1. What is a lambda expression in Java, and how does it relate to functional programming?**
    - **Answer:** A lambda expression in Java is a concise way to represent an anonymous function—a function without a name—inline within the code. Lambda expressions enable the use of functional programming concepts, allowing you to treat functions as first-class citizens and pass them as arguments to methods, store them in variables, and more.
@@ -42,16 +41,3 @@ Absolutely, I'll format the answers to your questions with the "Answer" word in 
 
 **9. How can you replace anonymous inner classes with lambda expressions?**
    - **Answer:** Lambda expressions provide a concise and more readable alternative to anonymous inner classes when working with single-method interfaces. By using lambda expressions, you can avoid boilerplate code and focus on the behavior you want to pass. This makes your code cleaner and more expressive.
-
-Feel free to ask if you have more questions or need further clarification!
-
-1. What is a lambda expression in Java, and how does it relate to functional programming?
-2. Explain the concept of a functional interface and its requirement for lambda expressions.
-3. How can you use method references to simplify lambda expressions?
-4. Describe the purpose of the `java.util.function` package in Java.
-5. How can you iterate through a list using lambda expressions and streams?
-
-- What is a lambda expression, and why was it introduced in Java?
-- How do you define and use lambda expressions in Java?
-- Explain the concept of a functional interface.
-- How can you replace anonymous inner classes with lambda expressions?

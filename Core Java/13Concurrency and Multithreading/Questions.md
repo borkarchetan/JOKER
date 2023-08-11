@@ -55,4 +55,3 @@
 **9. What is the purpose of the `wait()` and `notify()` methods in Java concurrency?**
    - **Answer:** The `wait()` method suspends a thread's execution and releases the associated monitor, allowing other threads to acquire it. The `notify()` method wakes up one waiting thread that's waiting on the same object's monitor. These methods are used for inter-thread communication and synchronization, allowing threads to coordinate and communicate in a controlled manner.
 
-Feel free to ask if you have more questions or need further clarification!

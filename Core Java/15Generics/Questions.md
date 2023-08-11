@@ -1,4 +1,3 @@
-Sure, I'll format the answers with the hyphen and the appropriate spacing for better readability:
 
 **1. How do generics enhance type safety in Java?**
    - Generics enhance type safety in Java by enabling compile-time type checking. They allow you to specify the type of elements that a collection or method can work with. This ensures that you cannot add or retrieve elements of the wrong type from collections, reducing the risk of runtime errors and class cast exceptions.
@@ -48,16 +47,3 @@ Sure, I'll format the answers with the hyphen and the appropriate spacing for be
 
 **9. What is type erasure, and how does it impact generics at runtime?**
    - Type erasure is a process where the type information of generic types is removed during compilation, and generic type parameters are replaced with their raw types. This allows Java to maintain compatibility with non-generic code. At runtime, generic types are treated as their raw types, which can lead to limitations in accessing type-specific information or performing certain operations based on type parameters.
-
-Feel free to ask if you have more questions or need further clarification!
-
-1. How do generics enhance type safety in Java?
-2. Explain the concept of type erasure in Java generics.
-3. How can you define a generic class in Java? Provide an example.
-4. Describe the purpose of bounded type parameters and wildcards in generics.
-5. How does the `ArrayList` class use generics to store elements of different types?
-
-- What are generics, and why are they useful in Java?
-- How can you create a generic class or method?
-- Explain the concept of bounded type parameters and wildcard usage.
-- What is type erasure, and how does it impact generics at runtime?
