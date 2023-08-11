@@ -1,4 +1,3 @@
-Certainly, here are the answers to your questions:
 
 **1. How do you find the length of an array in Java?**
 - **Answer:** You can find the length of an array in Java using the `length` instance variable. 
