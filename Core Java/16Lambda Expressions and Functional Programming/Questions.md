@@ -7,7 +7,7 @@ Absolutely, I'll format the answers to your questions with the "Answer" word in 
    - **Answer:** A functional interface is an interface that contains exactly one abstract method. Functional interfaces are used as the basis for lambda expressions and method references. The presence of a single abstract method ensures that the lambda expression can be associated with the functional interface's method signature.
 
 **3. How can you use method references to simplify lambda expressions?**
-   - **Answer:** Method references provide a way to refer to methods by their names. They can simplify lambda expressions that merely call an existing method. There are four types of method references:
+- **Answer:** Method references provide a way to refer to methods by their names. They can simplify lambda expressions that merely call an existing method. There are four types of method references:
     - Reference to a static method.
     - Reference to an instance method of a particular object.
     - Reference to an instance method of an arbitrary object of a particular type.
