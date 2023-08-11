@@ -1,6 +1,6 @@
 # Core Java Interview Question and Answer
 
-## [Basic Syntax and Data Types:]()
+## [Basic Syntax and Data Types:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/01Basic%20Syntax%20and%20Data%20Types/Questions.md)
 
 2. Explain the differences between the "==" operator and the `equals()` method for comparing objects.
 1. What are Java access modifiers, and how do they control the visibility of class members?
@@ -14,7 +14,7 @@
 - Describe type casting in Java. What's the difference between implicit and explicit casting?
 - Explain the concept of autoboxing and unboxing.
 
-## [Control Flow:]()
+## [Control Flow:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/02Control%20Flow/Questions.md)
 
 1. Explain the concept of short-circuiting in conditional statements.
 2. How do you avoid infinite loops? Provide an example.
@@ -27,7 +27,7 @@
 - What is a loop? Explain the difference between a while loop and a do-while loop.
 - How does the "break" statement work within loops?
 
-## [Operators:]()
+## [Operators:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/03Operators/Questions.md)
 
 1. Explain the significance of the ternary operator. Provide an example.
 2. How does operator precedence affect the evaluation of complex expressions?
@@ -40,7 +40,7 @@
 - Explain the purpose of the ternary operator (conditional operator) in Java.
 - What are bitwise operators? Provide examples of their usage.
 
-## [Arrays:]()
+## [Arrays:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/04Arrays/Questions.md)
 
 1. How do you find the length of an array in Java?
 2. Explain the difference between a one-dimensional array and a two-dimensional array.
@@ -53,7 +53,7 @@
 - How does the enhanced for loop simplify array traversal?
 - What is the length of an array, and how is it accessed?
 
-## [Methods:]()
+## [Methods:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/05Methods/Questions.md)
 
 1. What is method overloading, and how does it contribute to code readability?
 2. Explain the concept of a return type in a method. Can methods with different return types be overloaded?
@@ -66,7 +66,7 @@
 - Explain the purpose of the "return" statement in a method.
 - How does recursion work? Give an example of a recursive method.
 
-## [Object-Oriented Programming:]()
+## [Object-Oriented Programming:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/06Object-Oriented%20Programming/Questions.md)
 
 1. What is a constructor, and why is it important in object-oriented programming?
 2. Explain the difference between an instance method and a class method (static method).
@@ -79,7 +79,7 @@
 - What is a constructor? How does it differ from a method?
 - Describe the difference between instance variables and class variables (static variables).
 
-## [Abstract Classes and Interfaces:]()
+## [Abstract Classes and Interfaces:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/07Abstract%20Classes%20and%20Interfaces/Questions.md)
 
 1. How can an abstract class have constructors? Provide an example.
 2. Explain the concept of method overriding and its relationship with polymorphism.
@@ -92,7 +92,7 @@
 - How does method overriding work in Java?
 - Describe the "diamond problem" in relation to multiple inheritance and how Java avoids it.
 
-## [Exception Handling:]()
+## [Exception Handling:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/08Exception%20Handling/Questions.md)
 
 1. Explain the difference between checked and unchecked exceptions in Java.
 2. How can you handle exceptions using a try-catch block? Provide an example.
@@ -105,7 +105,7 @@
 - Explain the role of the "finally" block in exception handling.
 - What is the purpose of the "throws" clause in method declarations?
 
-## [Packages and Import Statements:]()
+## [Packages and Import Statements:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/09Packages%20and%20Import%20Statements/Questions.md)
 
 1. What is the purpose of organizing classes into packages?
 2. Explain the concept of a default package in Java.
@@ -118,7 +118,7 @@
 - What is the role of the "import" statement in Java?
 - How does Java resolve class names in different packages?
 
-## [File I/O and Serialization:]()
+## [File I/O and Serialization:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/10File%20IO%20and%20Serialization/Questions.md)
 
 1. How do you read data from a text file in Java?
 2. Explain the difference between character streams and byte streams in file I/O.
@@ -131,7 +131,7 @@
 - What is serialization? Why would you use it, and how is it implemented?
 - How can you deserialize an object back from a stream?
 
-## [Garbage Collection and Memory Management:]()
+## [Garbage Collection and Memory Management:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/11Garbage%20Collection%20and%20Memory%20Management/Questions.md)
 
 1. What is the role of the Java Virtual Machine (JVM) in memory management?
 2. Explain the purpose of the "finalize" method in the `Object` class.
@@ -144,7 +144,7 @@
 - Explain the "finalize" method and its relationship with garbage collection.
 - Describe the differences between strong, soft, and weak references in Java.
 
-## [Enums and Annotations:]()
+## [Enums and Annotations:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/12Enums%20and%20Annotations/Questions.md)
 
 1. How can you create a custom enum in Java? Provide an example.
 2. Explain the role of enums in enhancing code readability and preventing bugs.
@@ -157,7 +157,7 @@
 - How can you create your own custom annotations?
 - Describe the built-in annotations like `@Override` and `@Deprecated`.
 
-## [Concurrency and Multithreading:]()
+## [Concurrency and Multithreading:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/13Concurrency%20and%20Multithreading/Questions.md)
 
 1. What is a thread in Java, and how does it differ from a process?
 2. How can you create a thread by extending the `Thread` class and by implementing the `Runnable` interface?
@@ -170,7 +170,7 @@
 - Explain the concept of thread synchronization. Why is it important?
 - What is the purpose of the `wait()` and `notify()` methods in Java concurrency?
 
-## [Collections Framework:]()
+## [Collections Framework:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/14Collections%20Framework/Questions.md)
 
 1. What is the Collections Framework in Java, and why is it useful?
 2. Explain the difference between a List and a Set.
@@ -183,7 +183,7 @@
 - How does the "Iterator" interface help in traversing collections?
 - What is the enhanced for loop, and how does it simplify collection traversal?
 
-## [Generics:]()
+## [Generics:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/15Generics/Questions.md)
 
 1. How do generics enhance type safety in Java?
 2. Explain the concept of type erasure in Java generics.
@@ -196,7 +196,7 @@
 - Explain the concept of bounded type parameters and wildcard usage.
 - What is type erasure, and how does it impact generics at runtime?
 
-## [Lambda Expressions and Functional Programming:]()
+## [Lambda Expressions and Functional Programming:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/16Lambda%20Expressions%20and%20Functional%20Programming/Questions.md)
 
 1. What is a lambda expression in Java, and how does it relate to functional programming?
 2. Explain the concept of a functional interface and its requirement for lambda expressions.
@@ -209,7 +209,7 @@
 - Explain the concept of a functional interface.
 - How can you replace anonymous inner classes with lambda expressions?
 
-## [Date and Time API:]()
+## [Date and Time API:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/17Date%20and%20Time%20API/Questions.md)
 
 1. Why was the `java.time` package introduced in Java 8 for date and time handling?
 2. How do you create a `LocalDate` instance representing a specific date?
@@ -222,7 +222,7 @@
 - Provide examples of using LocalDate, LocalTime, and LocalDateTime.
 - How can you format and parse date and time using DateTimeFormatter?
 
-## [Java I/O Streams:]()
+## [Java I/O Streams:](https://github.com/borkarchetan/JOKER/blob/main/Core%20Java/18Java%20IO%20Streams/Questions.md)
 
 1. What is the purpose of I/O streams in Java?
 2. How can you read data from a file using byte streams?
