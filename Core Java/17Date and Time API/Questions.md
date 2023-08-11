@@ -41,19 +41,20 @@ Certainly, here are the answers to your questions:
 -   The `java.time` package provides a comprehensive and consistent API for handling date and time. It addresses the shortcomings of the older API by offering better data types, improved immutability, clear handling of time zones, more accurate calculations, and enhanced formatting options.
 
 **8. Provide examples of using `LocalDate`, `LocalTime`, and `LocalDateTime`.**
--   ```java
-   // LocalDate: Represents a date without a time component
-   LocalDate date = LocalDate.now(); // Current date
-   LocalDate futureDate = LocalDate.of(2023, 12, 31); // Specific date
+-   
+    ```java
+        // LocalDate: Represents a date without a time component
+        LocalDate date = LocalDate.now(); // Current date
+        LocalDate futureDate = LocalDate.of(2023, 12, 31); // Specific date
 
-   // LocalTime: Represents a time without a date component
-   LocalTime time = LocalTime.now(); // Current time
-   LocalTime specificTime = LocalTime.of(14, 30); // Specific time
+        // LocalTime: Represents a time without a date component
+        LocalTime time = LocalTime.now(); // Current time
+        LocalTime specificTime = LocalTime.of(14, 30); // Specific time
 
-   // LocalDateTime: Represents both date and time without a time zone
-   LocalDateTime dateTime = LocalDateTime.now(); // Current date and time
-   LocalDateTime specificDateTime = LocalDateTime.of(2023, 8, 15, 10, 0); // Specific date and time
-   ```
+        // LocalDateTime: Represents both date and time without a time zone
+        LocalDateTime dateTime = LocalDateTime.now(); // Current date and time
+        LocalDateTime specificDateTime = LocalDateTime.of(2023, 8, 15, 10, 0); // Specific date and time
+    ```
 
 **9. How can you format and parse date and time using `DateTimeFormatter`?**
 -   Formatting:
