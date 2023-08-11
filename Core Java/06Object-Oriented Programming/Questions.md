@@ -13,8 +13,10 @@ Certainly, here are the answers to your questions:
 
 **4. Describe the "has-a" and "is-a" relationships in object-oriented programming with examples.**
 - **Answer:**
-     - "Has-a" Relationship (Composition): It represents an object that is composed of one or more other objects. For example, a `Car` "has-a" `Engine` and "has-a" `Wheels`.
-     - "Is-a" Relationship (Inheritance): It represents a class that is a specialized version of another class. For example, a `Cat` "is-a" `Animal`.
+     - "Has-a" Relationship (Composition): It represents an object that is composed of one or more other objects. 
+        -   For example, a `Car` "has-a" `Engine` and "has-a" `Wheels`.
+     - "Is-a" Relationship (Inheritance): It represents a class that is a specialized version of another class. 
+        -   For example, a `Cat` "is-a" `Animal`.
 
 **5. What are abstract classes, and how are they different from interfaces in Java?**
 - **Answer:** Abstract classes are classes that cannot be instantiated and may have both abstract and concrete methods. They can contain instance variables, constructors, and non-abstract methods. Interfaces, on the other hand, define a contract that implementing classes must adhere to, without providing any method implementations. A class can implement multiple interfaces but extend only one class (including abstract classes). Abstract classes offer a way to share code and enforce a base structure among subclasses, while interfaces allow classes to provide common behaviors without enforcing any specific inheritance hierarchy.
