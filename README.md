@@ -1,26 +1,27 @@
-## [DataStructureAndAlgorithms](https://github.com/borkarchetan/JOKER/tree/main/Algorithms)
+## [1.HTML-CSS]()
+------              
 
----
+## [2.JavaScript]()
+------              
 
-## [Angular TUT](https://github.com/borkarchetan/JOKER/tree/main/Angular%20Tut/blog)
+## [3.JavaScript Advance]()
+------              
 
----
+## [4.React]()
+------              
 
-## [Core Java Interview Question and Answer](https://github.com/borkarchetan/JOKER/tree/main/Core%20Java)
+## [5.Angular-TUT]()
+------              
 
----
+## [Algorithms]()
+------              
 
-## [CSS](https://github.com/borkarchetan/JOKER/tree/main/CSS)
+## [Core Java]()
+------              
 
----
+## [HTML- TAG]()
+------              
 
-## [HTML](https://github.com/borkarchetan/JOKER/tree/main/HTML)
-
----
-
-## [HTML with CSS combine](https://github.com/borkarchetan/JOKER/tree/main/HTMl-CSS-CombineProject)
-
----
-
-## [React](https://github.com/borkarchetan/JOKER/tree/main/React)
----
+## [Practice-CSS]()
+------              
+✅
