@@ -22,8 +22,6 @@
 
 ---
 
-## [JAVASCRIPT](https://github.com/borkarchetan/JOKER/tree/main/JAVASCRIPT)
----
-
 ## [Raw Work ]()
+
 ---
