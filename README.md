@@ -1,27 +1,27 @@
-## [1.HTML-CSS]()
+### [1.HTML-CSS]()
 ------              
 
-## [2.JavaScript]()
+### [2.JavaScript]()
 ------              
 
-## [3.JavaScript Advance]()
+### [3.JavaScript Advance]()
 ------              
 
-## [4.React]()
+### [4.React]()
 ------              
 
-## [5.Angular-TUT]()
+### [5.Angular-TUT]()
 ------              
 
-## [Algorithms]()
+### [Algorithms]()
 ------              
 
-## [Core Java]()
+### [Core Java]()
 ------              
 
-## [HTML- TAG]()
+### [HTML- TAG]()
 ------              
 
-## [Practice-CSS]()
+### [Practice-CSS]()
 ------              
 ✅
