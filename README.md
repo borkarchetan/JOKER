@@ -1,28 +1,28 @@
-# [DataStructureAndAlgorithms]()
+# [DataStructureAndAlgorithms](https://github.com/borkarchetan/JOKER/tree/main/Algorithms)
 
 ---
 
-# [Angular TUT]()
+# [Angular TUT](https://github.com/borkarchetan/JOKER/tree/main/Angular%20Tut/blog)
 
 ---
 
-# [Core Java Interview Question and Answer]()
+# [Core Java Interview Question and Answer](https://github.com/borkarchetan/JOKER/tree/main/Core%20Java)
 
 ---
 
-# [CSS]()
+# [CSS](https://github.com/borkarchetan/JOKER/tree/main/CSS)
 
 ---
 
-# [HTML]()
+# [HTML](https://github.com/borkarchetan/JOKER/tree/main/HTML)
 
 ---
 
-# [HTML with CSS combine]()
+# [HTML with CSS combine](https://github.com/borkarchetan/JOKER/tree/main/HTMl-CSS-CombineProject)
 
 ---
 
-# [JAVASCRIPT]()
+# [JAVASCRIPT](https://github.com/borkarchetan/JOKER/tree/main/JAVASCRIPT)
 ---
 
 # [Raw Work ]()
