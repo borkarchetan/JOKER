@@ -1,34 +1,87 @@
+/* Reset default margin, padding, and box sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Set full width and height for HTML and body, center content */
 html,
 body {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
 }
 
+/* Styling for the main box */
 #box {
-  display: flex; /*to set side by side*/
-  justify-content: center; /* left to right */
-  align-items: center; /*for top to bottom*/
-  height: 800px;
-  width: 800px;
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally within the box */
+  align-items: center;
+  /* Center vertically within the box */
+  width: 50%;
+  /* Set the width of the box to 50% of the screen */
+  height: 50%;
+  /* Set the height of the box to 50% of the screen */
+  background-color: #fbfbfb;
+  margin: auto;
+  /* Center the box within the parent container */
 }
+
+/* Container for child boxes */
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  /* Space the child boxes evenly within the container */
+  align-items: center;
+  width: 50%;
+  /* Set the width of the container to 50% of the screen */
+  height: 50%;
+  /* Set the height of the container to 50% of the screen */
+}
+
+/* Styling for individual child boxes */
+.box {
+  height: 50%;
+  /* Set the height of each child box to 50% of the container */
+  width: 50%;
+  /* Set the width of each child box to 50% of the container */
+}
+
+/* Styling for box1 */
 #box1 {
   height: 300px;
   width: 200px;
-  background-color: rgb(82, 207, 93);
+  background-color: #ea6403;
 }
+
+/* Styling for box2 */
 #box2 {
   height: 300px;
   width: 200px;
-  background-color: rgb(95, 82, 207);
+  background-color: #ffffff;
 }
+
+/* Small box inside box2 */
+.small-box {
+  position: absolute; /* Position the small box relative to its parent */
+  top: 50%; /* Position the small box vertically centered */
+  left: 50%; /* Position the small box horizontally centered */
+  transform: translate(-50%, -50%); /* Adjust the position to center the small box */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #0000ff; /* Set the background color of the small box */
+}
+
+/* Styling for box3 */
 #box3 {
   height: 300px;
   width: 200px;
-  background-color: rgb(207, 82, 186);
+  background-color: #05530d;
 }
