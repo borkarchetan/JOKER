@@ -75,7 +75,7 @@ Passcode: ve=1.JHb
 Passcode: y?nG@BR1
 --------------
 
-- [MAC 201: Student Note {Interview Coaching - Assessment & Feedback Sessions}](https://drive.google.com/file/d/1RFEfJkWq6mlmMxyduQEYJmOV4oztlB8X/view)
+[MAC 201: Student Note {Interview Coaching - Assessment & Feedback Sessions}](https://drive.google.com/file/d/1RFEfJkWq6mlmMxyduQEYJmOV4oztlB8X/view)
 
 |
 
