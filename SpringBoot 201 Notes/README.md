@@ -67,18 +67,12 @@ Passcode:  ``` $Ca.xYP2 ```
 
 
 [SB - 201 14 video](https://us06web.zoom.us/rec/play/CVnAPKMltj_XkSONXPtAQ3FYnsFK16xf-8kDgu7pbdh1HTahnUDyNgJkkEbDv5It1z-U5ltB5wbq7Ya-.cNPrYhCzRLKZEfeK)
-Passcode:  
-``` 
-ve=1.JHb 
-``` 
+Passcode:   ``` ve=1.JHb ``` 
 --------------
 
 
 [SB - 201 16 video](https://us06web.zoom.us/rec/play/AIRHeev1lGfPIQmyw9ST9tpUT2Uek2ses1rhvgoqCDyxpUC3Ny4s1knF5qYTDQgMpKAVWaEswZYXvoex.qlKXNNzJUFKd4jan)
-Passcode:  
-``` 
-y?nG@BR1 
-``` 
+Passcode:  ``` y?nG@BR1 ``` 
 --------------
 
 [MAC 201: Student Note {Interview Coaching - Assessment & Feedback}](https://drive.google.com/file/d/1RFEfJkWq6mlmMxyduQEYJmOV4oztlB8X/view)
