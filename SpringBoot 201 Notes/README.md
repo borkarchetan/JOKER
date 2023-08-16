@@ -91,8 +91,8 @@ Passcode: W0t5F+f+
 https://us06web.zoom.us/rec/play/8WnGnRv_MHhtcSaqWuXu1hm504HquJYEglKfxIummxaNJFr0l-kyJolKuq8EgMmAUYozrEKB9ducD0P-.s2gjyBGUcZU7_ePX
 Passcode: wmz&9yuj
 
-https://drive.google.com/file/d/1RFEfJkWq6mlmMxyduQEYJmOV4oztlB8X/view
 
+- [MAC 201: Student Note {Interview Coaching - Assessment & Feedback Sessions}](https://drive.google.com/file/d/1RFEfJkWq6mlmMxyduQEYJmOV4oztlB8X/view)
 
 
 
