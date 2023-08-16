@@ -8,9 +8,9 @@
 ## TUT - 01 course intro ✅
 ## TUT - 02 javascript intro ✅
 ## TUT - 03 hello world ✅
-## TUT - 04 
-## TUT - 05
-## TUT - 06
+## TUT - 04 statement and comment in js ✅
+## TUT - 05 javascript variable declaration ✅
+## TUT - 06 javascript operator ✅
 ## TUT - 07
 ## TUT - 08
 ## TUT - 09
