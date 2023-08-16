@@ -5,10 +5,10 @@
 
 
 
-## TUT - 01 ✅
-## TUT - 02 
-## TUT - 03
-## TUT - 04
+## TUT - 01 course intro ✅
+## TUT - 02 javascript intro ✅
+## TUT - 03 hello world ✅
+## TUT - 04 
 ## TUT - 05
 ## TUT - 06
 ## TUT - 07
