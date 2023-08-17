@@ -8,46 +8,46 @@
 ## TUT - 01 course intro ✅
 ## TUT - 02 javascript intro ✅
 ## TUT - 03 hello world ✅
-## TUT - 04 statement and comment in js ✅
+## TUT - 04 statement and comment ✅
 ## TUT - 05 javascript variable declaration ✅
 ## TUT - 06 javascript operator ✅
-## TUT - 07 datatype in js ✅
+## TUT - 07 datatype ✅
 ## TUT - 08 comparision and logical operators ✅
-## TUT - 09 condition in javascript ✅
-## TUT - 10 switch in javascript ✅
-## TUT - 11 do while and for loop in javascript ✅
-## TUT - 12
-## TUT - 13
-## TUT - 14
-## TUT - 15
-## TUT - 16
-## TUT - 17
-## TUT - 18
-## TUT - 19
-## TUT - 20
-## TUT - 21
-## TUT - 22
-## TUT - 23
-## TUT - 24
-## TUT - 25
-## TUT - 26
-## TUT - 27
-## TUT - 28
-## TUT - 29
-## TUT - 30
-## TUT - 31
-## TUT - 32
-## TUT - 33
-## TUT - 34
-## TUT - 35
-## TUT - 36
-## TUT - 37
-## TUT - 38
-## TUT - 39
-## TUT - 40
-## TUT - 41
-## TUT - 42
-## TUT - 43
+## TUT - 09 condition ✅
+## TUT - 10 switch ✅
+## TUT - 11 do while and for loop ✅
+## TUT - 12 break, continue, and nested loop 
+## TUT - 13 alert confirn and prompt 
+## TUT - 14 type conversion 
+## TUT - 15 String manipulation 
+## TUT - 16 array 
+## TUT - 17 operation on array 
+## TUT - 18 create functions
+## TUT - 19 parameter and argument
+## TUT - 20 argument objects
+## TUT - 21 returning value
+## TUT - 22 global and local variables
+## TUT - 23 annonymous functions
+## TUT - 24 invoked function
+## TUT - 25 objects
+## TUT - 26 objects properties
+## TUT - 27 object methods
+## TUT - 28 "this" keyword 
+## TUT - 29 Math object 
+## TUT - 30 random number generator
+## TUT - 31 date object
+## TUT - 32 "new" keyword
+## TUT - 33 getter setter
+## TUT - 34 object constructor function
+## TUT - 35 property 
+## TUT - 36 nested object 
+## TUT - 37 hoisting 
+## TUT - 38 Document object Model 
+## TUT - 39 select element by id 
+## TUT - 40 select element by class
+## TUT - 41 select element by tag
+## TUT - 42 Query selector
+## TUT - 43 Traversing element 
 ## TUT - 44
 ## TUT - 45
 ## TUT - 46
