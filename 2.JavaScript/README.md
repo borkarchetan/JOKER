@@ -11,11 +11,11 @@
 ## TUT - 04 statement and comment in js ✅
 ## TUT - 05 javascript variable declaration ✅
 ## TUT - 06 javascript operator ✅
-## TUT - 07
-## TUT - 08
-## TUT - 09
-## TUT - 10
-## TUT - 11
+## TUT - 07 datatype in js ✅
+## TUT - 08 comparision and logical operators ✅
+## TUT - 09 condition in javascript ✅
+## TUT - 10 switch in javascript ✅
+## TUT - 11 do while and for loop in javascript ✅
 ## TUT - 12
 ## TUT - 13
 ## TUT - 14
