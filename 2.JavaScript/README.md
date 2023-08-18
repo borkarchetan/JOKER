@@ -48,38 +48,38 @@
 ## TUT - 41 select element by tag
 ## TUT - 42 Query selector
 ## TUT - 43 Traversing element 
-## TUT - 44
-## TUT - 45
-## TUT - 46
-## TUT - 47
-## TUT - 48
-## TUT - 49
-## TUT - 50
-## TUT - 51
-## TUT - 52
-## TUT - 53
-## TUT - 54
-## TUT - 55
-## TUT - 56
-## TUT - 57
-## TUT - 58
-## TUT - 59
-## TUT - 60
-## TUT - 61
-## TUT - 62
-## TUT - 63
-## TUT - 64
-## TUT - 65
-## TUT - 66
-## TUT - 67
-## TUT - 68
-## TUT - 69
-## TUT - 70
-## TUT - 71
-## TUT - 72
-## TUT - 73
-## TUT - 74
-## TUT - 75
-## TUT - 76
-## TUT - 77
+## TUT - 44 change inner HTML
+## TUT - 45 create and append element
+## TUT - 46 insert before an element
+## TUT - 47 remove child element
+## TUT - 48 clone or copy element
+## TUT - 49 replace element
+## TUT - 50 insert adjacent HTML 
+## TUT - 51 change attribute
+## TUT - 52 change inline style
+## TUT - 53 get computed CSS
+## TUT - 54 change css classes
+## TUT - 55 get width and height of element
+## TUT - 56 DOM events
+## TUT - 57 remove event listeners
+## TUT - 58 page load event
+## TUT - 59 mouse event
+## TUT - 60 keydown event
+## TUT - 61 scroll event
+## TUT - 62 event on form
+## TUT - 63 event bubbling and event capturing
+## TUT - 64 prevent default
+## TUT - 65 Browser object model(BOM) 
+## TUT - 66 window object 
+## TUT - 67 timeout and time interval
+## TUT - 68 location object
+## TUT - 69 navigator object
+## TUT - 70 screen object
+## TUT - 71 `Project`
+## TUT - 72 `Project`
+## TUT - 73 `Project`
+## TUT - 74 `Project`
+## TUT - 75 `Project`
+## TUT - 76 `Project`
+## TUT - 77 `Project`
 
