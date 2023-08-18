@@ -39,7 +39,7 @@
 ## TUT - 32 "new" keyword
 ## TUT - 33 getter setter
 ## TUT - 34 object constructor function
-## TUT - 35 property 
+## TUT - 35 prototype 
 ## TUT - 36 nested object 
 ## TUT - 37 hoisting 
 ## TUT - 38 Document object Model 
