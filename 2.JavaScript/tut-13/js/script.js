@@ -1,34 +1,14 @@
-// do while and for loop
+alert("veryfy here..!");
 
-/* 
-// while loop ...
-let count = 1;
+const name = prompt("enter your name");
 
-if (count === 0) {
-    console.log(`count should not be ${count}`);
+if (name != undefined) {
+    document.write(`welcome ${name}`);
 } else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
+    let responce = confirm("are you sure you dont want to enter your name?");
+    if (responce) {
+        document.write(`why are you here?`);
+    } else {
+
     }
-}
- */
-
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
-
-
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
 }

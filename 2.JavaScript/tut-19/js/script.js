@@ -1,34 +1,11 @@
-// do while and for loop
+// parameter and argument and create a table
 
-/* 
-// while loop ...
-let count = 1;
+function createTable(num) { // parameter
 
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
+    for (var i = 1; i < 10; i++) {
+        document.write(`${num} X ${i} = ${num * i} `)
+        document.write("<br>")
     }
 }
- */
 
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
-
-
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
-}
+const table = createTable(54); // argument

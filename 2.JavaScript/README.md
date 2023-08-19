@@ -22,13 +22,13 @@
 ## TUT - 15 String manipulation 
 ## TUT - 16 array 
 ## TUT - 17 operation on array 
-## TUT - 18 create functions
-## TUT - 19 parameter and argument
-## TUT - 20 argument objects
+## TUT - 18 create functions ✅
+## TUT - 19 parameter and argument ✅
+## TUT - 20 argument objects ✅
 ## TUT - 21 returning value
 ## TUT - 22 global and local variables
-## TUT - 23 annonymous functions
-## TUT - 24 invoked function
+## TUT - 23 annonymous functions ✅
+## TUT - 24 invoked function ✅
 ## TUT - 25 objects
 ## TUT - 26 objects properties
 ## TUT - 27 object methods

@@ -1,34 +1,18 @@
-// do while and for loop
-
-/* 
-// while loop ...
-let count = 1;
-
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
+let person = {
+    firstName: "chetan",
+    lastName: "borkar",
+    city: "nagpur",
+    pinCode: "441910",
+    personCalling() {
+        console.log(`my name is ${person.firstName} ${this.lastName}`)
+        // here is the most imp thing, we dont need to write here as person.firstName instead of this we can do like this.lastName
+        
+        console.log("I have " + car.brand + " which model is " + car.model);
     }
 }
- */
 
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
-
-
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
+let car = {
+    brand: "Audi",
+    model: "2025"
 }
+person.personCalling();
