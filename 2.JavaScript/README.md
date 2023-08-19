@@ -32,7 +32,7 @@
 ## TUT - 25 objects
 ## TUT - 26 objects properties
 ## TUT - 27 object methods
-## TUT - 28 "this" keyword 
+## TUT - 28 "this" keyword ✅ 
 ## TUT - 29 Math object 
 ## TUT - 30 random number generator
 ## TUT - 31 date object
