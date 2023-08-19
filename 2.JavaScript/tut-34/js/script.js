@@ -1,34 +1,33 @@
-// do while and for loop
+//  object constructor function
 
-/* 
-// while loop ...
-let count = 1;
+/* var students = {
+    name: "chetan",
+    age: 15,
+    class: 10,
+}; */
 
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
-    }
+function Student(first, last, age, cls) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.cls = cls;
+    this.state = "maharashtra";
 }
- */
 
-/* 
-// this is do while loop...
-let count = 0;
+var student1 = new Student("chetan", "borkar", 22, 12);
+var Student4 = new Student("chetan", "abhi", 32, 2);
+/* var Student3 = new Student("abhi", "borkar", 12, 22);
+var Student5 = new Student("abhi", "shek", 18, 9); */
 
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
+// we are adding here new propertie in student2
 
+student1.city = "nagpur";
 
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
-}
+// here we can add method also
+
+student1.name = function () {
+    return this.firstName + " " + this.lastName;
+};
+
+console.log(student1);
+console.log(student1.name());

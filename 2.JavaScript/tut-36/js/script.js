@@ -1,34 +1,21 @@
-// do while and for loop
+// nested object
 
-/* 
-// while loop ...
-let count = 1;
-
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
+var user = {
+    id: 101,
+    email: 'abc@gmail.com',
+    personalInfo: {
+        firstNmae: 'chetan',
+        lastName: 'borkar',
+        age: 26,
+        address: {
+            city: "nagpur",
+            state: "Maha",
+            pinCode: "441910"
+        }
     }
-}
- */
+};
 
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
-
-
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
-}
+console.log("this is user : ", user);
+console.log("this is personalInfo : ", user.personalInfo);
+console.log("this is address : ", user.personalInfo.address);
+console.log("this is city : ", user.personalInfo.address.city);

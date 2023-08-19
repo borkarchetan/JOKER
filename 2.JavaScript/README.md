@@ -35,12 +35,12 @@
 ## TUT - 28 "this" keyword ✅ 
 ## TUT - 29 Math object 
 ## TUT - 30 random number generator
-## TUT - 31 date object
-## TUT - 32 "new" keyword
-## TUT - 33 getter setter
-## TUT - 34 object constructor function
-## TUT - 35 prototype 
-## TUT - 36 nested object 
+## TUT - 31 date object ✅
+## TUT - 32 "new" keyword ✅
+## TUT - 33 getter setter ✅
+## TUT - 34 object constructor function ✅
+## TUT - 35 prototype ✅
+## TUT - 36 nested object ✅
 ## TUT - 37 hoisting 
 ## TUT - 38 Document object Model 
 ## TUT - 39 select element by id 

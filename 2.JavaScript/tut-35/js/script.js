@@ -1,34 +1,16 @@
-// do while and for loop
-
-/* 
-// while loop ...
-let count = 1;
-
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
-    }
+function Students(first, last, age, cls) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.cls = cls;
+    this.state = "maharashtra";
 }
- */
 
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
+// here is the use of prototype ...
+Students.prototype.nationality = "indian";
 
 
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
-}
+var student1 = new Students("chetan", "borkar", 22, 12);
+var Student2 = new Students("chetan", "abhi", 32, 2);
+
+console.log(student1);

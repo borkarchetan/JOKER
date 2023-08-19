@@ -1,34 +1,20 @@
-// do while and for loop
+// here we are creating objects using new keyword
 
-/* 
-// while loop ...
-let count = 1;
+// this is old method...
+let person = {
+    fName: "chetan",
+    lName: "borkar",
+    age: 23,
+    city: "nagpur",
+    state: "maharashtra",
+};
+console.log(person.fName, person.lName, person.age);
 
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
-    }
-}
- */
+// this is using new keyword...
 
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
-
-
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
-}
+var marks = new Object();
+marks.marathi = 8;
+marks.hindi = 9;
+marks.english = 8;
+marks.socSci = 8;
+console.log(marks.socSci);
