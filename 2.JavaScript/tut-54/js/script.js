@@ -1,34 +1,14 @@
-// do while and for loop
+let box = document.getElementById('box');
+// console.log(box.className);
 
-/* 
-// while loop ...
-let count = 1;
+box.className += " newClass";
 
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
-    }
-}
- */
+// console.log(box.className)
+// console.log(box.classList)
 
-/* 
-// this is do while loop...
-let count = 0;
+// here we can add another class
+box.classList.add("three");
 
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
-
-
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
+for (let css of box.classList) {
+    console.log(css);
 }

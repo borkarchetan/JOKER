@@ -6,9 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mouse event</title>
 </head>
+<style>
+    #box,
+    #box2,
+    #box3 {
+        background-color: #cba6ee;
+        height: 100px;
+        width: 100px;
+        margin: 30px;
+        padding: 20px;
+    }
+
+    #box,
+    #box2,
+    #box3>p {
+        color: #110505;
+        font-weight: bold;
+        font-size: 20px;
+    }
+</style>
 
 <body>
+    <div id="box" onclick="fun()">
+        <p>use left btn on the mouse</p>
+    </div>
 
+    <div style="background-color: #6e6ee2;" id="box2" oncontextmenu="fun2()">
+        <p>use right btn on the mouse</p>
+
+    </div>
+
+    <div style="background-color: #6ee278;" id="box3" ondblclick="fun3()">
+        <p>use double click on the mouse</p>
+
+    </div>
 </body>
 <script src="./js/script.js"></script>
 

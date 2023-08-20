@@ -41,9 +41,9 @@
 ## TUT - 34 object constructor function ✅
 ## TUT - 35 prototype ✅
 ## TUT - 36 nested object ✅
-## TUT - 37 hoisting 
-## TUT - 38 Document object Model 
-## TUT - 39 select element by id 
+## TUT - 37 hoisting ✅
+## TUT - 38 Document object Model ✅
+## TUT - 39 select element by id ✅
 ## TUT - 40 select element by class
 ## TUT - 41 select element by tag
 ## TUT - 42 Query selector
@@ -57,13 +57,13 @@
 ## TUT - 50 insert adjacent HTML 
 ## TUT - 51 change attribute
 ## TUT - 52 change inline style
-## TUT - 53 get computed CSS
-## TUT - 54 change css classes
-## TUT - 55 get width and height of element
+## TUT - 53 get computed CSS ✅
+## TUT - 54 change css classes ✅
+## TUT - 55 get width and height of element ✅
 ## TUT - 56 DOM events
 ## TUT - 57 remove event listeners
-## TUT - 58 page load event
-## TUT - 59 mouse event
+## TUT - 58 page load event ✅
+## TUT - 59 mouse event ✅
 ## TUT - 60 keydown event
 ## TUT - 61 scroll event
 ## TUT - 62 event on form
@@ -75,8 +75,8 @@
 ## TUT - 68 location object
 ## TUT - 69 navigator object
 ## TUT - 70 screen object
-## TUT - 71 `Project`
-## TUT - 72 `Project`
+## TUT - 71 `Project` ✅
+## TUT - 72 `Project` ✅
 ## TUT - 73 `Project`
 ## TUT - 74 `Project`
 ## TUT - 75 `Project`
