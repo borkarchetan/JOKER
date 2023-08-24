@@ -77,9 +77,9 @@
 ## TUT - 70 screen object
 ## TUT - 71 `Project` ✅
 ## TUT - 72 `Project` ✅
-## TUT - 73 `Project`
-## TUT - 74 `Project`
-## TUT - 75 `Project`
-## TUT - 76 `Project`
+## TUT - 73 `Project` ✅
+## TUT - 74 `Project` ✅
+## TUT - 75 `Project` ✅
+## TUT - 76 `Project` ✅
 ## TUT - 77 `Project`
 
