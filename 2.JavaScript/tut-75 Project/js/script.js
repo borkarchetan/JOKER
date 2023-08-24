@@ -1,34 +1,39 @@
-// do while and for loop
+/* Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters
 
-/* 
-// while loop ...
-let count = 1;
+pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+*/
 
-if (count === 0) {
-    console.log(`count should not be ${count}`);
-} else {
-    while (count <= 5) {
-        console.log(`total count is: ${count}`);
-        count++;
+let username = document.getElementById("username");
+let password = document.getElementById("password");
+let flag = 1;
+
+
+function validateForm() {
+    if (username.value == "") {
+        console.log("Please enter a username!");
+        document.getElementById("userError").innerHTML = "Please enter a username!";
+        flag = 0;
+    } else if (username.value.length < 3) {
+        document.getElementById("userError").innerHTML =
+            "Please enter min 3 charecter!";
+        flag = 0;
+    } else {
+        document.getElementById("userError").innerHTML = "";
+        flag = 1;
     }
-}
- */
-
-/* 
-// this is do while loop...
-let count = 0;
-
-    do {
-        console.log(`total count is: ${count}`);
-        count++;
-    } while (count <= 5);
- */
 
 
-    // for loop over...
-let num = 5;
-let count = 0;
-for (let i = 0; i < num; i++) {
-    count++;
-    console.log(`total count is: ${count}`);
+    if (password.value == "") {
+        document.getElementById("passError").innerHTML =
+            "password should not be empty!";
+        flag = 0;
+    } else {
+        document.getElementById("passError").innerHTML = "";
+        flag = 1;
+    }
+    if (flag) {
+        return true;
+    } else {
+        return false;
+    }
 }

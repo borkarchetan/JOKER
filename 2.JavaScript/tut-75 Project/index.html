@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>do while and for loop</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Form Validation</title>
 </head>
+
 <body>
-    
+    <div id="form_container">
+
+        <h2>Login</h2>
+        <form action="" onsubmit="return validateForm()">
+
+            <input type="text" id="username" placeholder="User Name"><br>
+            <p id="userError" class="error"></p>
+            <input type="password" id="password" placeholder="password"><br>
+            <p id="passError" class="error"></p>
+            <input type="submit" id="">
+
+
+        </form>
+    </div>
 </body>
 <script src="./js/script.js"></script>
+
 </html>

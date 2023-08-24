@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 20px 100px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+p {
+    font-size: 27px;
+    text-align: justify;
+}
+
+.btn {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block ;
+    border: solid gray 2px;
+    cursor: pointer;
+}
+#orange{
+background-color: #ffa500;
+}
+#red{
+background-color: #d84141;
+}
+#blue{
+background-color: #6666f1;
+}
+#green{
+background-color: #008000;
+}
+#color-switch{
+    text-align: right;
+}
