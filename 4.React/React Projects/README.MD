@@ -37,7 +37,7 @@ _Starting with basic JavaScript is a great foundation for learning React. React 
    - Fetch movie data from a movie API.
 
 ## 10. [**Chat Application**:]()
-    - Develop a basic real-time chat application where users can send and receive messages.
-    - Learn about managing real-time data with React and possibly integrate a real-time database or WebSocket.
+   - Develop a basic real-time chat application where users can send and receive messages.
+   - Learn about managing real-time data with React and possibly integrate a real-time database or WebSocket.
 
 _For each of these projects, start by setting up your development environment, including Node.js and a code editor like Visual Studio Code. Then, gradually introduce React concepts such as components, state, props, and event handling as you work on these projects. You can find plenty of online tutorials and documentation to guide you through building these applications step by step. As you become more comfortable with React, you can gradually tackle more complex projects and deepen your understanding of this powerful library._
