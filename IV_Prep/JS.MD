@@ -469,3 +469,147 @@ let a = 100
 console.log(a)
 var b = 200
 ```
+
+- in variable it is in the global space but in case of `a` let it is in script but why this happened? memory was asigned to `b` in variable declaration and these variable `b` was attacted to global memory in **let** and **const** they are allocated memory(called hoisting) but they are stored in some different memory space (script) so they are not global now.
+
+- `TDZ` is the time since when the let variable was hoisted and till it is initialed some value the between that.
+
+```js
+console.log(a)
+let a = 10
+let b = 100
+```
+- here `a` was assigned a seperate memory space and it was also assigned undefined but it is not initialized so this phase is known as `tzc` untill it goes to the code `let a=10` here `tdz` ends and the value of a put inside the `a` so it is the phase while hoisting to get a value.
+    - when you try to acces it, it will give reference error.
+    - if we try to get any random variable it will give reference error and  `x` is not define.
+    - we cannot re-declare with `let` or `let a=10`, `var a =10` in same scope we'll get syntax error.
+    - `const :` we cannot re-declare or declare now and assign value later `const` meant to be declare in same line or together it will give type eror 
+    - to avoid `TDZ` is to put all initialization and declaration on the TOP of the scope.
+
+
+- __block:{  // compound statement }__ 
+    - it is used to combine multiple js groups or statements what all variables and functions we can access inside the block is block scope.
+
+    ```js
+        var a = 10
+        let b = 20
+        const c = 30
+  ```
+
+    //Block
+    b:undefined
+    c:undefined
+   
+    //global
+    a:undefined
+
+    - here let and const are stored in a seperate memory space reserved for this block so we camnnot access outside block
+
+
+- `shadowing`
+```js
+var a = 100
+{
+    var a = 10
+    let b = 20;
+    const c = 30
+    console.log(a)
+    console.log(b)
+    console.log(c)
+}   // 10 20 30
+```
+
+```js
+var a = 100
+{
+    var a = 10
+    let b = 20;
+    const c = 30
+    console.log(a)
+    console.log(b)
+    console.log(c)
+}
+console.log(a)
+//10 20 30
+//Block
+b: undefined
+c: undefined
+//global
+a: 10
+```
+- **Here both a are referring to same memory space (global space)**
+
+```js
+let b = 100
+{
+    var a = 10
+    let b = 20;
+    const c = 30
+    console.log(a)
+    console.log(b)
+    console.log(c)
+}
+console.log(b)
+//10 20 30 100
+//Block
+b: undefined
+c: undefined
+//script
+b: 100
+//global
+a: 10
+```
+- here both a are referring to diff memory space (block space and reserved memory space space) it behaves in the same way in functions also.
+
+```js
+//Illegal shadowding
+var z = 20;
+{
+    var z = 30;
+}
+//30 legal
+
+let z = 20;
+{
+    var z = 30;
+}
+//illegal //syntax error
+function x() {
+    var z = 30;
+}
+//it isfine because var is a functiopn scope and it is unside its limit
+
+let z = 20;
+{
+    let z = 30;
+}
+//legal
+
+//vice versa
+var z = 20;
+{
+    let z = 30;
+}
+//legal
+
+const z = 20;
+{
+    const z = 30;
+}
+
+///
+const f = 20;
+{
+    const f = 100;
+    {
+        const f = 200;
+    }
+}
+//block
+// a:200
+//block
+//a:100
+//script
+//a:20
+//here it is following lexical scope pattern
+```
