@@ -88,7 +88,7 @@
 
 ```
  Non-zero value =   something is there 
-0              =   quantity is Non-zero
-null           =    something exixts but its value is NA or wiped out 
-undefined      =    something doesn't exixt
+ 0              =   quantity is Non-zero
+ null           =    something exixts but its value is NA or wiped out 
+ undefined      =    something doesn't exixt
 ```
