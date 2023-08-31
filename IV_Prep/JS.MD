@@ -92,3 +92,40 @@
  null           =    something exixts but its value is NA or wiped out 
  undefined      =    something doesn't exixt
 ```
+
+- __`Mutability` means to be able to change something `example: Rubber`__
+- `Primitive Data Types` in Js is Immutable value cannot be changed in memory
+
+```
+SSBBNNU                          
+
+they hold the value
+
+```
+
+- **how premitive data types are stored in memory  and it cannot be changed?**
+
+`example:` 
+
+```js
+ var a="Kunal"
+a[0]="a"
+console.log(a) 
+```
+`output:`
+``` 
+kunal
+```
+
+
+```js
+var admin=[1,2,3]
+admin[0]="Kunal"
+console.log(admin)
+``` 
+
+`output:`
+``` 
+kunal,2,3 
+```
+
