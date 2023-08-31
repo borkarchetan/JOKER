@@ -361,15 +361,91 @@ doSomething('one', 'two', 'three', 'four', 'five');
 
 ### The spread operator explodes array or objects in place
 
-- function expressions can be anonymous and it supports 
-- hoisting while function declations must have a name
-`example`
+- function expressions can be anonymous and it supports hoisting while function declations must have a name.
+    - `example`
 ```js
+
 function sum(a, b) {
     return a + b
 }
 //       OR
+
 function(a, b) {
     return a + b
 }
+
 ```
+
+- while function declations must have a name and we must define/declare it before using.
+
+```js
+let sum = function (a, b) {
+    return a + b
+}
+```
+
+## Statements vs Expressions
+
+- it is a piece of code that always produces something or an expression is anything that evaluates to a value. 
+- Expressions are usually on the right-hand side of statements. 
+- it is a piece of code that always produces something. 
+
+
+- `statement :` an instruction to perform a specific action or task 
+- `conditional statement :` it tells weather a peace of code will run or not example if else or switch case.
+
+- **__Lexical environment__ _OR_ __lexical scope__ means the place or environmwnt where the variable is sitting**
+
+```js
+function two() {
+    var a;
+    console.log(a);
+}
+function one() {
+    var a = 2;
+    console.log(a);
+    two();
+}
+var a = 1;
+console.log(a);
+one();  //Output for the above code is 1 2 undefined 
+        //because we have not given
+```
+
+-  any value to variable a in function two and in javascript default value assigned to a variable is undefined.
+
+-  whenever a context ececution is created along with it a lexical enviroment is created and each lexical enviroment have referece to its parent lexical enviroments which points to its memory allocation.
+
+```js
+function two() {
+    console.log(a);
+}
+function one() {
+    var a = 2;
+    console.log(a);
+    two();
+}
+var a = 1;
+console.log(a);
+one(); //Output for the above code is 1 2 1
+```
+
+- When javascript asked for the value of var a in function two’s execution context it couldn’t find it so it moved down and searched in its outer lexical environment i.e. global execution context.
+- var a is not defined in function two so it searched in its lexical environment i.e. global execution context.
+- Every execution context has a reference to its outer environment, and that outer environment is called Lexical Environment.
+
+```js
+function one() {
+    function two() {
+        console.log(a);
+    }
+    var a = 2;
+    console.log(a);
+    two();
+}
+var a = 1;
+console.log(a);
+one();
+  // Output for the above code is 1 2 2
+  
+  ```
