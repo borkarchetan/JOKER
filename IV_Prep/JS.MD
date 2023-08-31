@@ -452,3 +452,9 @@ one();
   // Output for the above code is 1 2 2
   
   ```
+
+- In the above example in the case of function two, its outer lexical environment is function one’s execution context and for function one, the outer lexical environment is the global execution context.
+
+- When javascript asked for the value of var a in function two’s execution context it couldn’t find it so it moved down and searched it in its outer lexical environment i.e. function one in this case.
+
+----
