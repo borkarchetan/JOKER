@@ -30,7 +30,14 @@
     - In case of functions, the whole function body is stored but in case of the variables, it is declared and assigned a default  value `undefined`. 
     - This phenomena is called `Hoisting`
 
-### - Execution phase:
-- 
-     - Since memory allocation is done, now it will go into execution phase .
-     - In this phase, JS executes our code line by line and assigns the value to the variables.
+## Execution phase:
+
+- Since memory allocation is done, now it will go into execution phase .
+- In this phase, JS executes our code line by line and assigns the value to the variables.
+
+- __Whatever we saw now is `GEC` (Global execution phase)__
+    - There is one more thing called as functional execution phase.
+    - Whenever a function gets invoked, a new execution context gets created known as `functional execution context`.
+    - __It has two phases again__
+        -  `creation` and `execution phase`
+    - Once function execution is done, functional execution context gets removed
