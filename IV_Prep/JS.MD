@@ -458,3 +458,14 @@ one();
 - When javascript asked for the value of var a in function two’s execution context it couldn’t find it so it moved down and searched it in its outer lexical environment i.e. function one in this case.
 
 ----
+
+## Temporal Dead Zone
+
+- Hoisting simply gives higher specificity to JavaScript declarations.
+- Thus, it makes the computer read and process declarations first before analyzing any other code in a program.
+
+```javascript
+let a = 100
+console.log(a)
+var b = 200
+```
