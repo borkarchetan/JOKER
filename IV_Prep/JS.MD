@@ -358,3 +358,18 @@ function doSomething(first, second, ...rest) {
 }
 doSomething('one', 'two', 'three', 'four', 'five');
 ```
+
+### The spread operator explodes array or objects in place
+
+- function expressions can be anonymous and it supports 
+- hoisting while function declations must have a name
+`example`
+```js
+function sum(a, b) {
+    return a + b
+}
+//       OR
+function(a, b) {
+    return a + b
+}
+```
