@@ -68,3 +68,27 @@
 - When you execute a script, the JavaScript engine creates a global execution context.
 - It also assigns variables that you declare outside  of functions to the global execution context.
 -  __These variables are in the global scope__. They are also known as `global variables`.
+
+## Local scope
+
+- Variables that you declare inside a function are local to that function. 
+- They are called __Local Variables__ and can’t be accessed in Global Scope.
+
+## Block scope
+
+- Those Variables that you declare inside a block `{}` using __let__ or __const__ this all are limited only to that block.
+
+
+## Data types
+- **Primitive Values** 
+    - `Boolean`, `BigInt`, `String`, `Symbol`, `Null` ,`Number`,  `Undefined type`
+- Immutable means that which cannot be changed or modified.
+- When we create a string, the value is created from scratch as opposed to being replaced.
+
+
+```
+ Non-zero value =   something is there 
+0              =   quantity is Non-zero
+null           =    something exixts but its value is NA or wiped out 
+undefined      =    something doesn't exixt
+```
