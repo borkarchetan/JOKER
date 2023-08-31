@@ -116,6 +116,7 @@ console.log(a)
 ``` 
 kunal
 ```
+------
 `example 2:` 
 
 ```js
