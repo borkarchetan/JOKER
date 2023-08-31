@@ -396,6 +396,7 @@ let sum = function (a, b) {
 
 - **__Lexical environment__ _OR_ __lexical scope__ means the place or environmwnt where the variable is sitting**
 
+----
 ```js
 function two() {
     var a;
@@ -416,6 +417,7 @@ one();  //Output for the above code is 1 2 undefined
 
 -  whenever a context ececution is created along with it a lexical enviroment is created and each lexical enviroment have referece to its parent lexical enviroments which points to its memory allocation.
 
+---
 ```js
 function two() {
     console.log(a);
@@ -434,6 +436,7 @@ one(); //Output for the above code is 1 2 1
 - var a is not defined in function two so it searched in its lexical environment i.e. global execution context.
 - Every execution context has a reference to its outer environment, and that outer environment is called Lexical Environment.
 
+---- 
 ```js
 function one() {
     function two() {
