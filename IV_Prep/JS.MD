@@ -12,7 +12,7 @@
 - **Hoisting in javascript**
     - default behavior of moving all declarations to the top of the current scope.
 
-- **Hoisting** 
+- `**Hoisting**` 
     - it only applies to variables and functions
     - it dosent care about variable value.
     - all it wants to know what variables are present in a program.
