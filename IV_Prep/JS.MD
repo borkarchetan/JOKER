@@ -19,4 +19,4 @@
     - when js engine executes a script it creates execution context.
     - each execution context has two phase.
 
-    - _JS is executed in two phases_
+    - __JS is executed in two phases__
