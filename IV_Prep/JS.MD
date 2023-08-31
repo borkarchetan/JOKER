@@ -108,7 +108,7 @@ they hold the value
 `example 1:` 
 
 ```js
- var a="Kunal"
+var a="Kunal"
 a[0]="a"
 console.log(a) 
 ```
@@ -120,6 +120,8 @@ kunal
 `example 2:` 
 
 ```js
+var a="Kunal"
+a[0]="a"
 var admin=[1,2,3]
 admin[0]="Kunal"
 console.log(admin)
