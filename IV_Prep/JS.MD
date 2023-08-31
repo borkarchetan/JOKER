@@ -307,3 +307,54 @@ console.log(obj); //kumar
 - `undefined` , `null` , `NaN` , `0` , `"" (empty string)`, and `false`. 
 - Anything that is not falsey it truthy.
 - `" "` it will be true because it is containing space and hence it is not empty.
+
+- When we use logical OR `||` , javascript looks for the first truthy value and returns it as soon as it finds it. 
+- If it does not find any truthy value, it returns the last falsy value it finds.
+
+- When we use logical AND `&&`, Javascript either returns the first falsey value it finds, else if all the operands are truthy, it returns the last truthy value.
+
+- The nullish coalescing `??` operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+
+```js
+let greet = function (name) {
+    return `Hello from ${name}!`;
+};
+greet("vivek");
+```
+
+`OR`
+
+```js
+let greet = (name) => `Hello from ${name}!`;
+greet("vivek");
+```
+
+`OR`
+
+```js
+let greet = name => `Hello from ${name}!`;
+greet("vivek");
+```
+
+`OR`
+
+```js
+(name => `Hello from ${name}!`)("vivek");
+```
+
+- To implicitly return an object ,surround it with parenthesis.
+
+```js
+let greet = () => ({ name: "Vivek" });
+greet();
+```
+
+
+- rest operator helps collect all the arguments in an array.
+
+```js
+function doSomething(first, second, ...rest) {
+    console.log(first, second, rest); // rest is guarenteed to be an array
+}
+doSomething('one', 'two', 'three', 'four', 'five');
+```
