@@ -137,3 +137,91 @@ kunal, 2, 3
 - `Non-Primitive Data Types` in Js  is mutable, value can be changed in memory.
 
 -  `Objects`, `Arrys`, `Functions`            they all hold the address
+
+
+----- 
+----- 
+
+
+```js 
+  const teache = {name: "Kunal"}
+  teacher = {name: "Kumar"}  //Script snippet #1:2 Uncaught TypeError: Assignment to constant variable.
+```
+
+- `Note` 
+    - if we are declaring a variable using `const` keyword we cannot asign a new value to it but we can mutate the values.
+
+```js
+    let obj = { name: "Kunal" }
+    const teacher = obj;
+    obj.name = "John" //'John'
+ //here we are not assigning anything to teacher we are just mutating the values
+   
+ ```
+
+
+ ```js
+    const obj = { name: "Kunal" }
+    obj.name = "John"
+    console.log(obj) //john
+//  we  cannot re assign value to obj we can only mutate
+ ```
+
+```js
+    const arr = [1, 2, 3, 4];
+    arr.push(2);
+    console.log(arr);
+// we can mutate but we cannnot re assign
+```
+
+
+## Objects And Object Sorting 
+
+- **Write a program to merge to sorted arrays**
+
+
+## Splice
+- **Remove or add an element to the array based on the given range, the splice method changes the original array**
+
+## Slice
+-  **Does not change the original array**
+
+## Pure components
+- **Pure Components in React are the components which do not re-renders when the value of state and props has been updated with the same values.**
+
+## Force render a component
+
+## Use effect
+
+
+## Display block and inline
+
+
+## ES6 
+-   ### Variable hoisting?
+    ### Four es6 features
+    ### Prototype chain?
+
+    ## prototype:
+
+    - Each object has a private property which holds a link to another object is called its `prototype`.
+    - That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype.
+    - By definition, null has no prototype, and acts as the final link in this prototype chain.
+
+    ## Closures:
+
+    - Given InputArr = [1, ‘a’, ‘b’, 5, 6], 
+    - Implement InputArr.square() So that it return OutputArr = [1, ‘a’, ‘b’, 25, 36]
+
+    ```js
+     const sum = (a, b) => a + b
+     sum(1, 2) // + operation
+     sum(2, 3) // + operation
+     sum(1, 2) // from cache
+    ```
+    - Implement a caching fn
+    - Can change implementation of sum fn
+    - Do Not polluting the global space
+    - Implement a stopwatch in React JS Prototype chain
+    - Array flatten,
+    - var merged = [].concat.apply([], arrays);
