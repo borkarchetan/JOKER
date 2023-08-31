@@ -116,7 +116,7 @@ console.log(a)
 ``` 
 kunal
 ```
-
+------
 
 ```js
 var admin=[1,2,3]
