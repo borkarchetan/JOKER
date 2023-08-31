@@ -20,5 +20,5 @@
     - each execution context has two phase.
 
 - __JS is executed in two phases__
-    - 1. memory components(variable contents) memory creation phase
-    - 2. code components(thread of execution) code execution phase
+    - 1. **memory components:**(variable contents) memory creation phase
+    - 2. **code components:**(thread of execution) code execution phase
