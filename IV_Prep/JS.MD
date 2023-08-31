@@ -105,7 +105,7 @@ they hold the value
 
 - **how premitive data types are stored in memory  and it cannot be changed?**
 
-`example:` 
+`example 1:` 
 
 ```js
  var a="Kunal"
@@ -116,7 +116,7 @@ console.log(a)
 ``` 
 kunal
 ```
-------
+`example 2:` 
 
 ```js
 var admin=[1,2,3]
