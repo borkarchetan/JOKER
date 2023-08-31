@@ -210,6 +210,8 @@ kunal, 2, 3
 
     ## Closures:
 
+    - `A function that is bundled with it's lexical scope`
+
     - Given InputArr = [1, ‘a’, ‘b’, 5, 6], 
     - Implement InputArr.square() So that it return OutputArr = [1, ‘a’, ‘b’, 25, 36]
 
@@ -225,3 +227,83 @@ kunal, 2, 3
     - Implement a stopwatch in React JS Prototype chain
     - Array flatten,
     - var merged = [].concat.apply([], arrays);
+
+
+- `Currying` if there is n number of input how you will handle that.
+
+## callback hell 
+
+- Callback:
+
+    - `Def:` __A callback is a function that is passed as an argument to another function that executes the callback based on the result.__
+    - They are basically functions that are executed only after a result is produced. 
+    - Callbacks are an important part of asynchronous JavaScript.
+
+
+- Callback Hell:
+
+    - Callback Hell is essentially nested callbacks stacked below one another forming a pyramid structure.
+    - Every callback depends/waits for the previous callback there by making a pyramid structure that affects the readability and maintainability of the code. 
+
+
+
+_List of some questions:_
+
+ **What is Virtual DOM**
+ **What is BABEL**
+ **Reconcillation**
+ **Mapping an array and sorting**
+ **Gave him a code and ask him about how it is hoisting**
+ **Merge two sorted arrays**
+ **Redux flow**
+ **Context API**
+ **CSS Flex If they give three btns how will you flex it?.**
+ **And where will you add the flex?.**
+
+
+ ------
+
+**how to remove arrow sign in input type = number**
+
+```js
+ <input type="number" class="no-spinners" />
+
+.no-spinners::-webkit-inner-spin-button,
+.no-spinners::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+```
+
+
+-----
+
+## Asynchronous Programming
+
+- Javascript is `synchronous`, `blocking`, `single-threaded` language.
+- Synchronous means to be in a sequence, `i.e.` every statement of the code gets executed one by one. 
+- So, basically a statement has to wait for the earlier statement to get executed.
+
+```js
+const reversedNum = (num) =>
+    parseFloat(num.toString().split("").reverse().join("")) * Math.sign(num);
+```
+
+### Essentials js 2
+
+```js
+let obj = { name: "Kunal" };
+let obj1 = obj;
+let obj2 = obj1;
+let obj3 = obj2;
+console.log(obj2); //Kunal
+obj2.name = "Kumar";
+console.log(obj2); //kumar
+console.log(obj); //kumar
+
+```
+
+- There are only six falsey values in JavaScript: 
+- `undefined` , `null` , `NaN` , `0` , `"" (empty string)`, and `false`. 
+- Anything that is not falsey it truthy.
+- `" "` it will be true because it is containing space and hence it is not empty.
