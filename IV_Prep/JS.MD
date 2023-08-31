@@ -108,8 +108,9 @@ they hold the value
 `example 1:` 
 
 ```js
-var a="Kunal"
-a[0]="a"
+var a = "Kunal";
+a[0] = "a";
+
 console.log(a) 
 ```
 `output:`
@@ -120,15 +121,19 @@ kunal
 `example 2:` 
 
 ```js
-var a="Kunal"
-a[0]="a"
-var admin=[1,2,3]
-admin[0]="Kunal"
-console.log(admin)
+var a = "Kunal";
+a[0] = "a";
+
+var admin = [1, 2, 3]
+admin[0] = "Kunal";
+console.log(admin);
 ``` 
 
 `output:`
 ``` 
-kunal,2,3 
+kunal, 2, 3 
 ```
 
+- `Non-Primitive Data Types` in Js  is mutable, value can be changed in memory.
+
+-  `Objects`, `Arrys`, `Functions`            they all hold the address
