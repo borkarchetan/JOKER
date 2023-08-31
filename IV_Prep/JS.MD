@@ -20,5 +20,12 @@
     - each execution context has two phase.
 
 - __JS is executed in two phases__
-    - 1. **memory components:**(variable contents) memory creation phase
-    - 2. **code components:**(thread of execution) code execution phase
+    - 1. **Memory Components:**(variable contents) memory creation phase
+    - 2. **Code Components:**(thread of execution) code execution phase
+
+- Hoisting simply gives higher specificity to JavaScript declarations. Thus, it makes the computer read and process declarations first before analyzing any other code in a program.
+
+- 
+    - During the creation phase of the execution context,  JS allocates memory space for the functions and variables.
+    - In case of functions, the whole function body is stored but in case of the variables, it is declared and assigned a default  value `undefined`. 
+    - This phenomena is called `Hoisting`
