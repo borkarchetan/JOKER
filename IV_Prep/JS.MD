@@ -1,3 +1,5 @@
+# javascript Interview question:
+
 variable are store location with assigned name it hold data that we can use or change later.
 
 A declearation allocates a memory and the assignment assign a value to this (itialized the variable with a value), allocated memory.
@@ -18,4 +20,3 @@ A declearation allocates a memory and the assignment assign a value to this (iti
     - each execution context has two phase.
 
     - _JS is executed in two phases_
-        
