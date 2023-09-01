@@ -238,3 +238,111 @@ var Nokia = mobile("ExpressMusic")
 console.log(Nokia.model + " " + Nokia.price())
             // ExpressMusic Price :Rs. 3000
 ```
+
+```javascript
+function createAccount(accountName, accountType, accountBalance, isActive) {
+    let account = {
+        name: accountName,
+        type: accountType,
+        balance: accountBalance,
+        active: isActive,
+        print: function () {
+            console.log('Name: ', this.name, 'Type: ', this.type, 'Active: ', this.active, 'Bal: ', this.balance);
+        }
+    };
+    return account;
+}
+const acc1 = createAccount('Vivek', 'Saving', 100000, true);
+acc1.print();
+const acc2 = createAccount('Akash', 'Premium', 200000, true);
+acc2.print();
+
+// OutPut::     Name:  Vivek Type:  Saving Active:  true Bal:  100000
+// OutPut::     Name:  Akash Type:  Premium Active:  true Bal:  200000
+```
+
+```javascript
+let object1 = {
+    name: "Kunal",
+    sayHello: () => {
+        console.log("hello")
+    }
+}
+
+let object2 = {
+    salary: "5000",
+    work: () => {
+        console.log("SDE")
+    }
+}
+
+
+Object.setPrototypeOf(object2, object1)
+object1.name
+object2.name; //Kunal
+object2.work() //SDE
+//object2 is accessing(not taking) the name key from object1
+//this is called lookup process
+//Every object in javascript has a hidden property" __proto__"
+//that is used to create alink between one object to another
+
+// object2.__proto__ === object1
+//true
+//This chain is one way
+// object1.__proto__ === object2
+//false
+
+
+//[1,2,3]===[1,2,3] 0r {}==={}
+//false
+//because they are stored at different memory locations and
+//equility operator in non premitives looks for same identity,
+//same location,same reference and not value
+
+//Object.setPrototypeOf() / Object.create()  sets up a prototype chain between
+// the source object and the target object. But, Object.assign() method
+//  only copies enumerable and own properties from a source object to a target object.
+
+```
+
+- we can create chain between objects but to help us javascript gives us a protytype Object inside every function and we can use that to create chains
+
+
+```javascript
+function f3() { }
+f3.prototype.sayName = function () {
+    console.log("Hello Im KK")
+}
+
+let object5 = {
+    name: "Kunal"
+}
+Object.setPrototypeOf(object5, f3.prototype)
+
+object5.sayName() //Hello Im KK
+```
+
+-  static methods are used to implement functions that belong to a class as a whole and not to only a particular object.
+-  This means you do not need an instance in order to use a static method. 
+- A non-static method is an instance method and belongs to each object that is generated from the class.
+-  a static class cannot be instantiated or inherited and that all of the members of the class are static in nature.
+
+- [YouTube Refer](https://www.youtube.com/watch?v=terQx7LWthI)
+
+##  difference between static and const
+
+- **static**
+    -  Static methods are used for creating a static copy of an object.
+    - The static keyword is used for declaring the static method, variable, or operator.
+    - Static is used with methods and classes.
+    - The value of a static variable can be modified.
+    - Static is a storage specifier.
+    - Static can be assigned for reference types and set at run time.
+
+- **const**
+    - The const variable declares a constant value that cannot be modified.
+    - The const keyword is used for declaring the constant value.
+    - We can use the const keyword with arrays and objects in JavaScript.
+    - A constant value cannot be modified.
+    - `Const` / `Constant` is a type qualifier.
+    - Constants are set at compile-time itself and assigned for value types only.
