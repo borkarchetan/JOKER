@@ -65,7 +65,8 @@ function Student(first, last, age, cls) {
     this.age = age;
     this.class = cls;
 }
-var student1 = new Student("vishwajeet", "Kumar", 30, 6); //Student {firstName: 'vishwajeet', lastName: 'Kumar', age: 30, class: 6}
+var student1 = new Student("vishwajeet", "Kumar", 30, 6); 
+//Student {firstName: 'vishwajeet', lastName: 'Kumar', age: 30, class: 6}
 //now by adding just one line of code we can create another student with same prop with diff value
 
 ```
