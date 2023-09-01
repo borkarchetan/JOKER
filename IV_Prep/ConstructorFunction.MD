@@ -84,9 +84,9 @@ Student.prototype.nationality = "Indian"
 - if you call student1 now you will se nationality property in student1 under __proto__
 
 
-**Question :**   How can we creating Objects in Js?
-**Answer :** 
--  
+- **Question :**   How can we creating Objects in Js?
+
+- **Answer :** 
     - 1. Object Literal
 ```js
     var a = { name : 'Batman' }
