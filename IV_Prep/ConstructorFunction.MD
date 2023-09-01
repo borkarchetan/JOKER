@@ -139,3 +139,102 @@ myName()
 ( objects)           =-->  samsung,Lg,Nokia
 (Properties,Methods) =-->   Model,Ram,Color,price                    
 ```
+
+__there are two ways to define class in javascript using class keyword__
+- `class Declaration`
+- `class Expression`
+
+- The constructor method is a special method for creating and initializing an object within a class . There can be one special method with the name "constructor" in a class to replce prototype class was invented as `ES6 - Classes`
+
+```js
+class class_name {
+    constructor() {
+        // properties
+    }
+    // Methods
+}
+
+class Mobile {
+    constructor() {
+        this.model = "Glaxy";
+
+    }
+    show() { return this.model + "Price Rs 3000" }
+}
+var Nokia = new Mobile
+
+
+
+
+class Mobile {
+    constructor() {
+        //Instance Member
+        this.a = 12
+        this.show = function () {
+            return "Instance Member"
+        }
+
+    }
+    //prptotype member
+    show() {
+        return "prtotype member"
+    }
+}
+var Nokia = new Mobile()
+console.log(Nokia.a)
+console.log(Nokia)
+
+console.log(typeof (Mobile))
+```
+
+## factory functions
+
+- when a function returns an object we call it a factory function it can produce object instance without new keyword or class.
+- `Example`
+
+```js
+function mobile() {
+    return {
+        model: 'Glaxy',
+        price: function () {
+            return ("Price :Rs. 3000");
+        }
+    }
+}
+var samsung = mobile() 
+//creating new object name samsung
+console.log(samsung.model + " " + samsung.price())
+//Glaxy Price :Rs. 3000
+
+// The benefit is we can create multiple object instance
+```
+
+## factory function with parameter
+
+```js
+var samsung = {
+    model: "glaxy"
+}
+var lg = {
+    model: "M55"
+}
+var Nokia = {
+    model: "ExpressMusic"
+}
+
+// alternate method is factory fn
+
+function mobile(model_No) {
+    return {
+        model: model_No,
+        price: function () {
+            return ("Price :Rs. 3000");
+        }
+    }
+}
+var samsung = mobile("glaxy")
+var Nokia = mobile("ExpressMusic")
+
+console.log(Nokia.model + " " + Nokia.price())
+            // ExpressMusic Price :Rs. 3000
+```
