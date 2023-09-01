@@ -346,3 +346,46 @@ object5.sayName() //Hello Im KK
     - A constant value cannot be modified.
     - `Const` / `Constant` is a type qualifier.
     - Constants are set at compile-time itself and assigned for value types only.
+
+    ----
+    - In JavaScript, accessor properties are methods that get or set the value of an object. For that, we use these two keywords:
+        - `get` - to define a getter method to get the property value.
+        - `set` - to define a setter method to set the property value.
+
+```js
+
+
+// data property
+firstName: 'Monica',
+
+    // accessor property(getter)
+    get getName() {
+    return this.firstName;
+};
+};
+
+// accessing data property
+console.log(student.firstName); // Monica
+
+// accessing getter methods
+console.log(student.getName); // Monica
+
+// trying to access as a method
+console.log(student.getName()); // error
+
+
+
+
+
+const student = {
+    firstName: 'Monica',
+    //accessor property(setter)
+    set changeName(newName) {
+        this.firstName = newName;
+    }
+};
+console.log(student.firstName); // Monica
+// change(set) object property using a setter
+student.changeName = 'Sarah';
+console.log(student.firstName); // Sarah
+```
