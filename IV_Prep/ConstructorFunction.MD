@@ -108,12 +108,16 @@ Student.prototype.nationality = "Indian"
 var person = {
     name: "john",
     myName: function () {
-        //console.log(this.) //this==person  /this refers to parent object
+        //console.log(this.) 
+        //this==person  
+        //this refers to parent object
         console.log(this)
     }
 }
 
-person.myName()//{name: 'john', myName: ƒ}
+person.myName(){
+    name: 'john', myName: ƒ
+    }
 
 // Alone, this refers to the global object.
 function myName() {
@@ -122,4 +126,16 @@ function myName() {
 myName()
 //Window {window: Window, self: Window, document: document, name: '', location: Location, …}
 
+```
+- In a function, this refers to the global object.
+-  In a function, in strict mode, this is undefined.
+-  In an event, this refers to the element that received the event.
+-  Methods like call(), apply(), and bind() can refer this to any object.
+
+
+```
+`class` : A specific category can be defined as class 
+(class)              =-->   Mobile
+( objects)           =-->  samsung,Lg,Nokia
+(Properties,Methods) =-->   Model,Ram,Color,price                    
 ```
