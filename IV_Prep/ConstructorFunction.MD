@@ -97,8 +97,29 @@ Student.prototype.nationality = "Indian"
 - We can create objects in Js using functions as well.
 - This is one example of creating an object using a function.
 
-* **Question :**   What is this keyword?
-*  **Answer :** 
+- **Question :**   What is this keyword?
+-  **Answer :** 
 - In JavaScript, the this keyword refers to an object.
 - Which object depends on how this is being invoked (used or called).
 - The this keyword refers to different objects depending on how it is used:
+
+```js
+// In an object method, this refers to the object.
+var person = {
+    name: "john",
+    myName: function () {
+        //console.log(this.) //this==person  /this refers to parent object
+        console.log(this)
+    }
+}
+
+person.myName()//{name: 'john', myName: ƒ}
+
+// Alone, this refers to the global object.
+function myName() {
+    console.log(this)
+}
+myName()
+//Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+
+```
