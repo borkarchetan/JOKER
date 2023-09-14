@@ -1,7 +1,7 @@
 # DSA and Coding Unit-One
 
 ## Mathematical Operators (IW)
-[Contest Linkhttps://oj.masaischool.com/contest/2941))
+[Contest Link](https://oj.masaischool.com/contest/2941)
 - Contest Password - 123456
 
 
@@ -11,7 +11,7 @@
 
 
 ## JS Comparison Operators
-[Contest Linktps://oj.masaischool.com/contest/2945))
+[Contest Link](tps://oj.masaischool.com/contest/2945)
 - Contest Password - 312456
 
 
