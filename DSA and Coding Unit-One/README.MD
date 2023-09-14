@@ -11,7 +11,7 @@
 
 
 ## JS Comparison Operators
-[Contest Link](tps://oj.masaischool.com/contest/2945)
+[Contest Link](https://oj.masaischool.com/contest/2945)
 - Contest Password - 312456
 
 
