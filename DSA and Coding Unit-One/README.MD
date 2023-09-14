@@ -1,46 +1,46 @@
 # DSA and Coding Unit-One
 
-Mathematical Operators (IW)
+## Mathematical Operators (IW)
 Contest Link - https://oj.masaischool.com/contest/2941
 Contest Password - 123456
 
 
-Mathematical Operators (Assignment)
+## Mathematical Operators (Assignment)
 Contest Link - https://oj.masaischool.com/contest/2942
 Contest Password - 234567
 
 
-JS Comparison Operators
+## JS Comparison Operators
 Contest Link - https://oj.masaischool.com/contest/2945
 Contest Password - 312456
 
 
-JS CONDITIONAL STATEMENTS (Assignment)
+## JS CONDITIONAL STATEMENTS (Assignment)
 Contest Link - https://oj.masaischool.com/contest/2962
 Contest Password - masai130
 
 
-LOGICAL OPERATORS (ASSIGNMENT)
+## LOGICAL OPERATORS (ASSIGNMENT)
 Contest Link - https://oj.masaischool.com/contest/2965
 Contest Password - masai125
 
 
-Increment, Decrement, While Loop (Assignment)
+## Increment, Decrement, While Loop (Assignment)
 Contest Link - https://oj.masaischool.com/contest/2971
 Contest Password - masai1200
 
 
-For Loops (IW)
+## For Loops (IW)
 Contest Link - https://oj.masaischool.com/contest/2979
 Contest Password - masai1200
 
 
-For Loops (Assignments)
+## For Loops (Assignments)
 Contest Link - https://oj.masaischool.com/contest/2980
 Contest Password - masai113
 
 
-Coding Evaluation-I
+## Coding Evaluation-I
 Contest Link - https://oj.masaischool.com/contest/2998
 Contest Password - masai430
 
